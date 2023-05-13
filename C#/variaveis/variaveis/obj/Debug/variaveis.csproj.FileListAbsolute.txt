@@ -1,0 +1,8 @@
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\bin\Debug\variaveis.exe.config
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\bin\Debug\variaveis.exe
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\bin\Debug\variaveis.pdb
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\obj\Debug\variaveis.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\obj\Debug\variaveis.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\obj\Debug\variaveis.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\obj\Debug\variaveis.exe
+C:\Users\Alex\Desktop\Linguagens\C#\variaveis\variaveis\obj\Debug\variaveis.pdb

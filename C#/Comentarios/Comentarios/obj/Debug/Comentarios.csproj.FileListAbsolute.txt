@@ -1,0 +1,8 @@
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\bin\Debug\Comentarios.exe.config
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\bin\Debug\Comentarios.exe
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\bin\Debug\Comentarios.pdb
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.AssemblyReference.cache
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\obj\Debug\Comentarios.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\obj\Debug\Comentarios.exe
+C:\Users\Alex\Desktop\Linguagens\C#\Comentarios\Comentarios\obj\Debug\Comentarios.pdb
