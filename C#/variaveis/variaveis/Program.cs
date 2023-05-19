@@ -8,6 +8,21 @@ namespace variaveis
 {
     internal class Program
     {
+
+        enum Notas
+        {
+            Minimo,
+            Media = 20, // assim atribuimos valores para elas, se não atribuir o proximo do setado ele vai seguir a ordem dos valores, e tem que ser inteiros
+            Maxima // aqui seria o nome do membro da minha enumeração, e ele funciona com um sistema de indexação começando com 0 e assim em diante
+        }
+
+        struct Pessoa
+        {
+            public string nome; // devemos definir os modificadores de acesso
+            public int idade;
+            public double altura;
+        }
+
         static void Main(string[] args) {
 
             #region Numericas Integrais
@@ -81,13 +96,50 @@ namespace variaveis
 
             // nesse tipo de variavel pode atribuir qualquer valor, pois essa variavel é base dos outros tipos
 
-            object obj = null;
-            obj = 150;
-            obj = "Alex";
+            // object obj = null;
+            // obj = 150;
+            // obj = "Alex";
 
             #endregion
 
-            Console.WriteLine(obj);
+            #region Constantes
+
+            // const double pi = 3.1415; // devemos atribuir os valores já na criação pois não podemos alterar o valor ao decorrer do codigo
+            // const string nome = "Alex";
+
+            #endregion
+
+            #region Enumeração
+
+            // Notas notasAlunos = Notas.Minimo;
+
+            #endregion
+
+            #region Structs
+
+            /*
+            Pessoa p1 = new Pessoa();
+
+            p1.nome = "Alex";
+            p1.idade = 19;
+            p1.altura = 1.68;
+            */
+
+            /*
+            Pessoa p2 = new Pessoa()
+             {
+                nome = "Jonas",
+                idade = 18,
+                altura = 1.74,
+            }
+            */
+
+            // reatribuindo
+            // p1.nome = "Lucas";
+
+            #endregion
+
+            Console.WriteLine();
             Console.WriteLine("\nPressione uma Tecla");
             Console.ReadKey();
 

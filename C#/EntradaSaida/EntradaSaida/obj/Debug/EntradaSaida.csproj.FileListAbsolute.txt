@@ -1,0 +1,8 @@
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.exe.config
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.exe
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\bin\Debug\EntradaSaida.pdb
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.exe
+C:\Users\Alex\source\repos\EntradaSaida\EntradaSaida\obj\Debug\EntradaSaida.pdb

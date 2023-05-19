@@ -1,0 +1,8 @@
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\bin\Debug\ExercicioInverterNomes.exe.config
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\bin\Debug\ExercicioInverterNomes.exe
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\bin\Debug\ExercicioInverterNomes.pdb
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\obj\Debug\ExercicioInverterNomes.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\obj\Debug\ExercicioInverterNomes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\obj\Debug\ExercicioInverterNomes.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\obj\Debug\ExercicioInverterNomes.exe
+C:\Users\Alex\source\repos\ExercicioInverterNomes\ExercicioInverterNomes\obj\Debug\ExercicioInverterNomes.pdb

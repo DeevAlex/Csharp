@@ -1,0 +1,8 @@
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\bin\Debug\OperadoresNumericos.exe.config
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\bin\Debug\OperadoresNumericos.exe
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\bin\Debug\OperadoresNumericos.pdb
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\obj\Debug\OperadoresNumericos.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\obj\Debug\OperadoresNumericos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\obj\Debug\OperadoresNumericos.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\obj\Debug\OperadoresNumericos.exe
+C:\Users\Alex\source\repos\OperadoresNumericos\OperadoresNumericos\obj\Debug\OperadoresNumericos.pdb
