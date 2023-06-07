@@ -1,0 +1,8 @@
+C:\Users\Alex\source\repos\Colecao\Colecao\bin\Debug\Colecao.exe.config
+C:\Users\Alex\source\repos\Colecao\Colecao\bin\Debug\Colecao.exe
+C:\Users\Alex\source\repos\Colecao\Colecao\bin\Debug\Colecao.pdb
+C:\Users\Alex\source\repos\Colecao\Colecao\obj\Debug\Colecao.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Colecao\Colecao\obj\Debug\Colecao.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\source\repos\Colecao\Colecao\obj\Debug\Colecao.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Colecao\Colecao\obj\Debug\Colecao.exe
+C:\Users\Alex\source\repos\Colecao\Colecao\obj\Debug\Colecao.pdb
