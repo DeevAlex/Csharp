@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\bin\Debug\CalcularIMC.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\bin\Debug\CalcularIMC.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\bin\Debug\CalcularIMC.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\obj\Debug\CalcularIMC.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\obj\Debug\CalcularIMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\obj\Debug\CalcularIMC.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\obj\Debug\CalcularIMC.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\CalcularIMC\CalcularIMC\obj\Debug\CalcularIMC.pdb

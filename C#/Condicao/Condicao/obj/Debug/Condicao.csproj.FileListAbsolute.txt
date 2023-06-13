@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\bin\Debug\Condicao.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\bin\Debug\Condicao.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\bin\Debug\Condicao.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\obj\Debug\Condicao.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\obj\Debug\Condicao.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\obj\Debug\Condicao.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\obj\Debug\Condicao.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Condicao\Condicao\obj\Debug\Condicao.pdb
