@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\bin\Debug\ClassesObjetos.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\bin\Debug\ClassesObjetos.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\bin\Debug\ClassesObjetos.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\obj\Debug\ClassesObjetos.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\obj\Debug\ClassesObjetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\obj\Debug\ClassesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\obj\Debug\ClassesObjetos.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\ClassesObjetos\obj\Debug\ClassesObjetos.pdb

@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\bin\Debug\Fibonacci.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\obj\Debug\Fibonacci.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Fibonacci\Fibonacci\obj\Debug\Fibonacci.pdb
