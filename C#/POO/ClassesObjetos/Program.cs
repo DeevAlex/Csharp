@@ -55,12 +55,6 @@ namespace ClassesObjetos
 
             #endregion
 
-            #region Métodos com Parametros
-
-
-
-            #endregion
-
             Console.Write("Pressione uma tecla para finalizar: ");
             Console.ReadKey();
 
