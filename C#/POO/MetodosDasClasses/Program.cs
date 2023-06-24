@@ -50,11 +50,29 @@ namespace MetodosDasClasses
 
             #endregion
 
-            // Métodos com retorno de valores
 
-            Console.WriteLine(m.MontaNome("São", "Gonsalo"));
-            Console.WriteLine(m.CodigoChar('a'));
-            Console.WriteLine(m.ValorPi());
+            #region Retorno de valores
+
+                // Métodos com retorno de valores
+
+                Console.WriteLine(m.MontaNome("São", "Gonsalo"));
+                Console.WriteLine(m.CodigoChar('a'));
+                Console.WriteLine(m.ValorPi());
+
+            #endregion
+
+            #region Sobrecarga de Métodos
+
+            Console.WriteLine();
+
+            m.Cumprimentar();
+            m.Cumprimentar("Alex");    
+            m.Cumprimentar("Alex", 23);
+
+            Console.WriteLine(m.Comparar(100, 50 * 2));
+            Console.WriteLine(m.Comparar("Alex", "alex"));
+
+            #endregion
 
             Console.Write("Pressione uma tecla para finalizar: ");
             Console.ReadKey();

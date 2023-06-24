@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\bin\Debug\Estatico.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\bin\Debug\Estatico.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\bin\Debug\Estatico.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\obj\Debug\Estatico.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\obj\Debug\Estatico.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\obj\Debug\Estatico.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\obj\Debug\Estatico.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Estatico\obj\Debug\Estatico.pdb

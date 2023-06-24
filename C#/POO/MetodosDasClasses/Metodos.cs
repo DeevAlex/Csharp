@@ -85,5 +85,28 @@ namespace MetodosDasClasses
             return 3.1415;
         }
 
+        // Sobrecarga de Métodos
+
+        public void Cumprimentar(string nome) // tem que ter uma passagem de parametros diferente da que já foi declarada, com mais ou com menos ou tipos diferentes de parametros
+        {
+            Console.WriteLine("Olá " + nome);
+        }
+
+        public void Cumprimentar(string nome, int hora)
+        {
+            string mensagem = hora < 12 ? "bom dia " + nome : "Boa Tarde " + nome;
+            Console.WriteLine(mensagem);
+        }
+
+        public bool Comparar(int num1, int num2)
+        {
+            return num1 == num2;
+        }
+
+        public bool Comparar(string txt1, string txt2)
+        {
+            return txt1 == txt2;
+        }
+
     }
 }

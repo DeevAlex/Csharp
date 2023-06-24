@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\bin\Debug\Propriedades.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\bin\Debug\Propriedades.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\bin\Debug\Propriedades.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\obj\Debug\Propriedades.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\obj\Debug\Propriedades.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\obj\Debug\Propriedades.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\obj\Debug\Propriedades.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Propriedades\obj\Debug\Propriedades.pdb
