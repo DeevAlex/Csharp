@@ -1,0 +1,3 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Modificadores\obj\Debug\Modificadores.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Modificadores\obj\Debug\Modificadores.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\POO\Modificadores\obj\Debug\Modificadores.csproj.CoreCompileInputs.cache

@@ -24,7 +24,7 @@ namespace Encapsular
                     _saldo = 0;
                 } else
                 {
-                    _cliente = value;
+                    _cliente = value;   
                     Saldo = 100;
                 }
             }
