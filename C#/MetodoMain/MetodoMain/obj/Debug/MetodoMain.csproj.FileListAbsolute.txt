@@ -1,0 +1,8 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\bin\Debug\MetodoMain.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\bin\Debug\MetodoMain.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\bin\Debug\MetodoMain.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\obj\Debug\MetodoMain.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\obj\Debug\MetodoMain.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\obj\Debug\MetodoMain.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\obj\Debug\MetodoMain.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\MetodoMain\MetodoMain\obj\Debug\MetodoMain.pdb
