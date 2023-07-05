@@ -1,0 +1,11 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\bin\Debug\SistemaCadastro.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaCadastro\SistemaCadastro\obj\Debug\SistemaCadastro.Formulario.resources
