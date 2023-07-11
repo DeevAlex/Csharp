@@ -41,10 +41,10 @@
             this.CheckCasa = new System.Windows.Forms.CheckBox();
             this.CheckVeiculo = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Masculino = new System.Windows.Forms.RadioButton();
-            this.Feminino = new System.Windows.Forms.RadioButton();
             this.Outro = new System.Windows.Forms.RadioButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.Feminino = new System.Windows.Forms.RadioButton();
+            this.Masculino = new System.Windows.Forms.RadioButton();
+            this.txtLista = new System.Windows.Forms.ListBox();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -134,6 +134,7 @@
             this.btnCadastrar.TabIndex = 8;
             this.btnCadastrar.Text = "Cadastrar / Alterar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // CheckCasa
             // 
@@ -165,29 +166,7 @@
             this.groupBox1.Size = new System.Drawing.Size(178, 121);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Sexo:";
-            // 
-            // Masculino
-            // 
-            this.Masculino.AutoSize = true;
-            this.Masculino.Location = new System.Drawing.Point(6, 25);
-            this.Masculino.Name = "Masculino";
-            this.Masculino.Size = new System.Drawing.Size(87, 24);
-            this.Masculino.TabIndex = 0;
-            this.Masculino.TabStop = true;
-            this.Masculino.Text = "Masculino";
-            this.Masculino.UseVisualStyleBackColor = true;
-            // 
-            // Feminino
-            // 
-            this.Feminino.AutoSize = true;
-            this.Feminino.Location = new System.Drawing.Point(6, 55);
-            this.Feminino.Name = "Feminino";
-            this.Feminino.Size = new System.Drawing.Size(82, 24);
-            this.Feminino.TabIndex = 1;
-            this.Feminino.TabStop = true;
-            this.Feminino.Text = "Feminino";
-            this.Feminino.UseVisualStyleBackColor = true;
+            this.groupBox1.Text = "Gênero:";
             // 
             // Outro
             // 
@@ -200,34 +179,59 @@
             this.Outro.Text = "Outro";
             this.Outro.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // Feminino
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(20, 412);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(441, 104);
-            this.listBox1.TabIndex = 12;
+            this.Feminino.AutoSize = true;
+            this.Feminino.Location = new System.Drawing.Point(6, 55);
+            this.Feminino.Name = "Feminino";
+            this.Feminino.Size = new System.Drawing.Size(82, 24);
+            this.Feminino.TabIndex = 1;
+            this.Feminino.TabStop = true;
+            this.Feminino.Text = "Feminino";
+            this.Feminino.UseVisualStyleBackColor = true;
+            // 
+            // Masculino
+            // 
+            this.Masculino.AutoSize = true;
+            this.Masculino.Location = new System.Drawing.Point(6, 25);
+            this.Masculino.Name = "Masculino";
+            this.Masculino.Size = new System.Drawing.Size(87, 24);
+            this.Masculino.TabIndex = 0;
+            this.Masculino.TabStop = true;
+            this.Masculino.Text = "Masculino";
+            this.Masculino.UseVisualStyleBackColor = true;
+            // 
+            // txtLista
+            // 
+            this.txtLista.FormattingEnabled = true;
+            this.txtLista.ItemHeight = 20;
+            this.txtLista.Location = new System.Drawing.Point(20, 412);
+            this.txtLista.Name = "txtLista";
+            this.txtLista.Size = new System.Drawing.Size(441, 104);
+            this.txtLista.TabIndex = 12;
+            this.txtLista.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtLista_MouseDoubleClick);
             // 
             // btnExcluir
             // 
             this.btnExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExcluir.Location = new System.Drawing.Point(187, 374);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(98, 30);
+            this.btnExcluir.Size = new System.Drawing.Size(113, 30);
             this.btnExcluir.TabIndex = 13;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
             this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLimpar.Location = new System.Drawing.Point(291, 374);
+            this.btnLimpar.Location = new System.Drawing.Point(306, 374);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(156, 30);
             this.btnLimpar.TabIndex = 14;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // Formulario
             // 
@@ -236,7 +240,7 @@
             this.ClientSize = new System.Drawing.Size(474, 538);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.txtLista);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.CheckVeiculo);
             this.Controls.Add(this.CheckCasa);
@@ -280,7 +284,7 @@
         private System.Windows.Forms.RadioButton Feminino;
         private System.Windows.Forms.RadioButton Masculino;
         private System.Windows.Forms.RadioButton Outro;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox txtLista;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnLimpar;
     }
