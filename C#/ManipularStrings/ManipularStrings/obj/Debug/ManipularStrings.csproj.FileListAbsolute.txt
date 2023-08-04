@@ -1,0 +1,11 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\bin\Debug\ManipularStrings.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\bin\Debug\ManipularStrings.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\bin\Debug\ManipularStrings.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ManipularStrings\ManipularStrings\obj\Debug\ManipularStrings.pdb

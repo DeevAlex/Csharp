@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\bin\Debug\SistemaLogin.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\bin\Debug\SistemaLogin.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\bin\Debug\SistemaLogin.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SistemaLogin\SistemaLogin\obj\Debug\SistemaLogin.FormLogin.resources
