@@ -1,0 +1,11 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\bin\Debug\Colecoes.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\bin\Debug\Colecoes.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\bin\Debug\Colecoes.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Colecoes\Colecoes\obj\Debug\Colecoes.pdb

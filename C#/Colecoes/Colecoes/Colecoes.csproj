@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{497D188B-8A50-4A44-89C1-D3F641D2264D}</ProjectGuid>
+    <ProjectGuid>{83A05D96-1CCF-4C6F-91AA-53D919E58007}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ManipularNumeros</RootNamespace>
-    <AssemblyName>ManipularNumeros</AssemblyName>
+    <RootNamespace>Colecoes</RootNamespace>
+    <AssemblyName>Colecoes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
