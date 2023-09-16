@@ -140,7 +140,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 339);
+            this.ClientSize = new System.Drawing.Size(698, 341);
             this.Controls.Add(this.btnStack);
             this.Controls.Add(this.btnQueue);
             this.Controls.Add(this.btnSortedSet);

@@ -277,7 +277,7 @@ namespace Colecoes
             // alunos.ContainsValue("Alex");
 
             // aqui você coloca o indice, o indice é diferente da chave que foi colocada na adição a lista
-            MessageBox.Show("Elemento #0: " + alunos.ElementAt(0));
+            MessageBox.Show("Elemento #0: " + alunos.ElementAt(0).ToString());
 
             // aqui podemos colocar o alunos.Reverse(); também
             foreach (KeyValuePair<int, string> item in alunos)
@@ -296,18 +296,31 @@ namespace Colecoes
 
             lista.Items.Clear();
 
-            SortedSet<string> alunos = new SortedSet<string>()
+            SortedSet<string> nomes = new SortedSet<string>()
             {
-                "Alex",
                 "Jonas",
-                "Silveira",
+                "Bruna",
+                "Alex",
                 "Simone",
                 "Marina",
             };
 
-            foreach (string item in alunos)
+            // if (!nomes.Add("Claudio"))
+            // {
+            //    MessageBox.Show("Não pode repetir o valor");
+            // }
+
+            // nomes.Remove("Simone");
+            // MessageBox.Show(nomes.ElementAt(2));
+            // nomes.First();
+            // nomes.Last();
+            // nomes.Count();
+            // MessageBox.Show(nomes.Count().ToString());
+
+            // podemos colocar na ordem decrescente usando nomes.reverse()
+            foreach (string nome in nomes)
             {
-                lista.Items.Add(item);
+                lista.Items.Add(nome);
             }
 
             #endregion
@@ -319,9 +332,41 @@ namespace Colecoes
 
             #region Queue
 
+            // Conceito FIFO - Fist In, Fist Out
+
             lista.Items.Clear();
 
-            Queue<String> fila = new Queue<string>();
+            Queue<string> fila = new Queue<string>();
+
+            fila.Enqueue("Alex"); // Adiciona no final da fila
+            fila.Enqueue("Daniel");
+            fila.Enqueue("Arthur");
+
+            MessageBox.Show(fila.Count.ToString());
+
+            foreach (string item in fila) 
+            {
+                lista.Items.Add(item);
+            }
+
+            // MessageBox.Show("Primeiro item da fila: " + fila.Peek()); // pega o objeto no inicio da fila sem remover
+            // MessageBox.Show("Primeiro item da fila: " + fila.Dequeue()); // pega o objeto no inicio da fila e vai remover
+            // MessageBox.Show(fila.Count.ToString());
+            // fila.Clear(); // limpar todos os elementos
+
+            // fila.First(); // retorna o primeiro elemento
+            // fila.Last(); // retorna o ultimo elemento
+
+            while (fila.Count > 0)
+            {
+                MessageBox.Show("Primeiro item da fila: " + fila.Dequeue()); // pega o objeto no inicio da fila e vai remover
+                MessageBox.Show(fila.Count.ToString());
+                lista.Items.Clear();
+                foreach (string item in fila)
+                {
+                    lista.Items.Add(item);
+                }
+            }
 
             #endregion
 
@@ -332,10 +377,42 @@ namespace Colecoes
 
             #region Stack
 
+            // Conceito FILO - First In, Last Out
+
             lista.Items.Clear();
 
-            Stack<int> pilha = new Stack<int>();
-            
+            Stack<string> pilha = new Stack<string>();
+
+            pilha.Push("Alex"); // adiciona no final da pilha
+            pilha.Push("Daniel");
+            pilha.Push("Arthur");
+
+            MessageBox.Show(pilha.Count.ToString());
+
+            foreach (string item in pilha)
+            {
+                lista.Items.Add(item);
+            }
+
+            //MessageBox.Show("Elemento no Topo: " + pilha.Peek()); // pega o elemento que está no topo da pilha sem remover
+            //MessageBox.Show(pilha.Count.ToString());
+
+            //MessageBox.Show("Elemento removido do Topo: " + pilha.Pop()); // remove o ultimo elemento
+            //MessageBox.Show(pilha.Count.ToString());
+
+            // pilha.Clear(); // limpar todos os elementos
+
+            while (pilha.Count > 0)
+            {
+                MessageBox.Show("Elemento removido do topo da pilha: " + pilha.Pop()); // pega o objeto no inicio da fila e vai remover
+                MessageBox.Show(pilha.Count.ToString());
+                lista.Items.Clear();
+                foreach (string item in pilha)
+                {
+                    lista.Items.Add(item);
+                }
+            }
+
             #endregion
 
         }
