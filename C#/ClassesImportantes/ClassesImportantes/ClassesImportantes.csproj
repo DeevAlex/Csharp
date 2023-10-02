@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{099C7B56-6CB8-4FD8-884D-7A381034AA9D}</ProjectGuid>
+    <ProjectGuid>{5B7C67B6-50DC-404D-80DE-697D41ED33B6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>JokenPo</RootNamespace>
-    <AssemblyName>JokenPo</AssemblyName>
+    <RootNamespace>ClassesImportantes</RootNamespace>
+    <AssemblyName>ClassesImportantes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,12 +52,8 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -66,7 +62,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,24 +75,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Empatar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Ganhar.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Papel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Pedra.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Perder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\imagens\Tesoura.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
