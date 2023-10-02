@@ -1,0 +1,9 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\bin\Debug\ClassesImportantes.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.pdb
