@@ -7,3 +7,4 @@ C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\o
 C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.exe
 C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ClassesImportantes\obj\Debug\ClassesImportantes.Form1.resources
