@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\bin\Debug\ThreadConsole.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\bin\Debug\ThreadConsole.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\bin\Debug\ThreadConsole.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\obj\Debug\ThreadConsole.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\obj\Debug\ThreadConsole.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\obj\Debug\ThreadConsole.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\ThreadConsole\obj\Debug\ThreadConsole.pdb

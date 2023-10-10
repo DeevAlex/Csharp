@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\bin\Debug\TaskConsole.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ClassesImportantes\TaskConsole\obj\Debug\TaskConsole.pdb
