@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\bin\Debug\FormMdiContainer.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\bin\Debug\FormMdiContainer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\bin\Debug\FormMdiContainer.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.Form2.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Formulario\FormMdiContainer\obj\Debug\FormMdiContainer.Form3.resources

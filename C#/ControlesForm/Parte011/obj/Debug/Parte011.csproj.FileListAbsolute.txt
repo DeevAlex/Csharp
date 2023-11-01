@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\bin\Debug\Parte011.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\bin\Debug\Parte011.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\bin\Debug\Parte011.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControlesForm\Parte011\obj\Debug\Parte011.pdb

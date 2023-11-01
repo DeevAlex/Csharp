@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,5 +58,56 @@ namespace Formulario
 
         }
 
+        private void mFileNovo_Click(object sender, EventArgs e)
+        {
+            new Thread(() => Application.Run(new FormMain()) ).Start();
+        }
+
+        private void mFileAbrir_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FormSegunda f = new FormSegunda();
+            f.ShowDialog();
+            Show();
+        }
+
+        private void mFileSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void mHelpSobreDev_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Alex de Matos Caceres", "Desenvolvedor", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void mHelpSobreVersao_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Versão 1.0");
+        }
+
+        private void comboMenu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            if (comboMenu.SelectedIndex == 0)
+            {
+                menuFile.Text = "File";
+                menuHelp.Text = "Help";
+            } else
+            {
+                menuFile.Text = "Arquivo";
+                menuHelp.Text = "Ajuda";
+            }
+
+        }
+
+        private void mPesquisar_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                lblPrincipal.Text = mPesquisar.Text;
+                mPesquisar.Text = "";
+            }
+        }
     }
 }

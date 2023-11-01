@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulario", "Formulario\Formulario.csproj", "{9BEB8A51-7E81-4942-A3FE-BF6B1DC9E01C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormControle", "FormControle\FormControle.csproj", "{C4F34C0B-646A-4D69-AB3B-DC76A3BA4A2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormMdiContainer", "FormMdiContainer\FormMdiContainer.csproj", "{B34EF16F-F349-403F-90D4-10C66B9C15B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9BEB8A51-7E81-4942-A3FE-BF6B1DC9E01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BEB8A51-7E81-4942-A3FE-BF6B1DC9E01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BEB8A51-7E81-4942-A3FE-BF6B1DC9E01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F34C0B-646A-4D69-AB3B-DC76A3BA4A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F34C0B-646A-4D69-AB3B-DC76A3BA4A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F34C0B-646A-4D69-AB3B-DC76A3BA4A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F34C0B-646A-4D69-AB3B-DC76A3BA4A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34EF16F-F349-403F-90D4-10C66B9C15B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34EF16F-F349-403F-90D4-10C66B9C15B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34EF16F-F349-403F-90D4-10C66B9C15B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34EF16F-F349-403F-90D4-10C66B9C15B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
