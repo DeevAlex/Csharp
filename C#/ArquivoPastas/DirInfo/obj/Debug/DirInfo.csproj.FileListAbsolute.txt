@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\bin\Debug\DirInfo.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\bin\Debug\DirInfo.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\bin\Debug\DirInfo.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\DirInfo\obj\Debug\DirInfo.pdb

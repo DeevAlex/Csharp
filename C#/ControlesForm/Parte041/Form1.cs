@@ -16,5 +16,24 @@ namespace Parte041
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+            if (font.ShowDialog() != DialogResult.Cancel)
+            {
+                label1.Font = font.Font;
+                label1.ForeColor = font.Color;
+            }
+
+        }
+
+        private void font_Apply(object sender, EventArgs e)
+        {
+
+            label1.Font = font.Font;
+            label1.ForeColor = font.Color;
+
+        }
     }
 }

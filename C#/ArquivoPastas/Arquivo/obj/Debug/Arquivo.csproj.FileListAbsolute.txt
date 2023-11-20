@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\bin\Debug\Arquivo.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\bin\Debug\Arquivo.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\bin\Debug\Arquivo.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\Arquivo\obj\Debug\Arquivo.pdb

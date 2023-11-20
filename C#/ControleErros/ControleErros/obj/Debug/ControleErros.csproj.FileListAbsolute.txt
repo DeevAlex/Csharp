@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\bin\Debug\ControleErros.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\bin\Debug\ControleErros.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\bin\Debug\ControleErros.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ControleErros\ControleErros\obj\Debug\ControleErros.pdb

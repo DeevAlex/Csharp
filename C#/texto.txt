@@ -1,0 +1,1 @@
+﻿Teste de escrita em arquivos

@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\bin\Debug\LerEscrever.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ArquivoPastas\LerEscrever\obj\Debug\LerEscrever.pdb
