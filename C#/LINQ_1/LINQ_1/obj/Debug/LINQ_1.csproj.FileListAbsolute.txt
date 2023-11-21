@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\bin\Debug\LINQ_1.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\bin\Debug\LINQ_1.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\LINQ_1\LINQ_1\obj\Debug\LINQ_1.pdb

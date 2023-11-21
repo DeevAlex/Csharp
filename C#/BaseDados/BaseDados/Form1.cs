@@ -306,55 +306,17 @@ namespace BaseDados
 
             #region SQLite
 
-            string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
-            string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
+            // string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
+            // string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
 
-            SQLiteConnection conexao = new SQLiteConnection(stringConnection);
+            // SQLiteConnection conexao = new SQLiteConnection(stringConnection);
 
-            try
-            {
-
-                conexao.Open();
-
-                SQLiteCommand comando = new SQLiteCommand();
-
-                comando.Connection = conexao;
-
-                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-                string nome = txtNome.Text;
-                string email = txtEmail.Text;
-
-                comando.CommandText = "INSERT INTO pessoas VAlUES(" + id + ",'" + nome + "','" + email + "')"; // Comando para cria a tabela
-                comando.ExecuteNonQuery(); // executa o comando de executar a tabela
-
-                labelResultado.Text = "Resultado: Dados Inseridos!";
-
-                comando.Dispose();
-
-            }
-            catch (Exception ex)
-            {
-                labelResultado.Text = "Erro: " + ex.Message;
-            }
-            finally
-            {
-                conexao.Close();
-            }
-
-            #endregion
-
-            #region MySQL
-
-            //string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
-
-            //MySqlConnection conexao = new MySqlConnection(stringConnection);
-
-            //try
-            //{
+            // try
+            // {
 
             //    conexao.Open();
 
-            //    MySqlCommand comando = new MySqlCommand();
+            //    SQLiteCommand comando = new SQLiteCommand();
 
             //    comando.Connection = conexao;
 
@@ -369,15 +331,63 @@ namespace BaseDados
 
             //    comando.Dispose();
 
-            //}
-            //catch (Exception ex)
-            //{
+            // }
+            // catch (Exception ex)
+            // {
             //    labelResultado.Text = "Erro: " + ex.Message;
-            //}
-            //finally
-            //{
+            // }
+            // finally
+            // {
             //    conexao.Close();
-            //}
+            // }
+
+            #endregion
+
+            #region MySQL
+
+            string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
+
+            MySqlConnection conexao = new MySqlConnection(stringConnection);
+
+            try
+            {
+
+                conexao.Open();
+
+                MySqlCommand comando = new MySqlCommand();
+
+                comando.Connection = conexao;
+
+                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
+                string nome = txtNome.Text;
+                string email = txtEmail.Text;
+
+                if (nome != "" && email != "")
+                {
+                    comando.CommandText = "INSERT INTO pessoas VAlUES(" + id + ",'" + nome + "','" + email + "')"; // Comando para cria a tabela
+                    comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+
+                    labelResultado.Text = "Resultado: Dados Inseridos!";
+
+                    comando.Dispose();
+                } else
+                {
+                    MessageBox.Show("Campos estão vazios!");
+                    return;
+                }
+
+                txtNome.Text = "";
+                txtEmail.Text = "";
+
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = "Erro: " + ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
 
             #endregion
 
@@ -437,55 +447,10 @@ namespace BaseDados
 
             #region SQLite
 
-            string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
-            string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
+            // string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
+            // string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
 
-            SQLiteConnection conexao = new SQLiteConnection(stringConnection);
-
-            try
-            {
-
-                string query = "SELECT * FROM pessoas";
-
-                if (txtNome.Text != "")
-                {
-                    query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "'";
-                }
-
-                DataTable dados = new DataTable(); // é uma tabela que recebera todos os dados (inserimos primeiro aqui para que ele seja tratado quem trata é um adaptador)
-
-                SQLiteDataAdapter sQLiteDataAdapter = new SQLiteDataAdapter(query, stringConnection); // ele é quem preenche a tabela com os dados
-
-                conexao.Open();
-
-                sQLiteDataAdapter.Fill(dados); // aqui estamos mandando o adaptador preencher a tabela com os dados
-
-                foreach (DataRow linha in dados.Rows) // estamos passando por cada linha e colocamos os dados que estão na linha dentro da lista
-                {
-
-                    lista.Rows.Add(linha.ItemArray); // cada linha é um array de colunas
-
-                }
-
-                labelResultado.Text = "Resultado: Procurando...";
-
-            }
-            catch (Exception ex)
-            {
-                labelResultado.Text = "Erro: " + ex.Message;
-            }
-            finally
-            {
-                conexao.Close();
-            }
-
-            #endregion
-
-            #region MySQL
-
-            // string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
-
-            // MySqlConnection conexao = new MySqlConnection(stringConnection);
+            // SQLiteConnection conexao = new SQLiteConnection(stringConnection);
 
             // try
             // {
@@ -494,12 +459,12 @@ namespace BaseDados
 
             //    if (txtNome.Text != "")
             //    {
-            //        query = "SELECT * FROM pessoas WHERE nome = '" + txtNome.Text + "'";
+            //        query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "'";
             //    }
 
             //    DataTable dados = new DataTable(); // é uma tabela que recebera todos os dados (inserimos primeiro aqui para que ele seja tratado quem trata é um adaptador)
 
-            //    MySqlDataAdapter sQLiteDataAdapter = new MySqlDataAdapter(query, stringConnection); // ele é quem preenche a tabela com os dados
+            //    SQLiteDataAdapter sQLiteDataAdapter = new SQLiteDataAdapter(query, stringConnection); // ele é quem preenche a tabela com os dados
 
             //    conexao.Open();
 
@@ -523,6 +488,51 @@ namespace BaseDados
             // {
             //    conexao.Close();
             // }
+
+            #endregion
+
+            #region MySQL
+
+            string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
+
+            MySqlConnection conexao = new MySqlConnection(stringConnection);
+
+            try
+            {
+
+                string query = "SELECT * FROM pessoas";
+
+                if (txtNome.Text != "")
+                {
+                    query = "SELECT * FROM pessoas WHERE nome = '" + txtNome.Text + "'";
+                }
+
+                DataTable dados = new DataTable(); // é uma tabela que recebera todos os dados (inserimos primeiro aqui para que ele seja tratado quem trata é um adaptador)
+
+                MySqlDataAdapter sQLiteDataAdapter = new MySqlDataAdapter(query, stringConnection); // ele é quem preenche a tabela com os dados
+
+                conexao.Open();
+
+                sQLiteDataAdapter.Fill(dados); // aqui estamos mandando o adaptador preencher a tabela com os dados
+
+                foreach (DataRow linha in dados.Rows) // estamos passando por cada linha e colocamos os dados que estão na linha dentro da lista
+                {
+
+                    lista.Rows.Add(linha.ItemArray); // cada linha é um array de colunas
+
+                }
+
+                labelResultado.Text = "Resultado: Procurando...";
+
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = "Erro: " + ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
 
             #endregion
 
@@ -555,7 +565,7 @@ namespace BaseDados
             //    comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'"; // Comando para cria a tabela
             //    comando.ExecuteNonQuery(); // executa o comando de inserir dados na tabela
 
-            //    labelResultado.Text = "Resultado: Dado deletado!";
+            //    labelResultado.Text = "Resultado: Dados Excluidos!";
 
             //    comando.Dispose();
 
@@ -573,28 +583,62 @@ namespace BaseDados
 
             #region SQLite
 
-            string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
-            string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
+            // string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
+            // string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
 
-            SQLiteConnection conexao = new SQLiteConnection(stringConnection);
+            // SQLiteConnection conexao = new SQLiteConnection(stringConnection);
+
+            // try
+            // {
+
+            //    conexao.Open();
+
+            //    SQLiteCommand comando = new SQLiteCommand();
+
+            //    comando.Connection = conexao;
+
+            //    int id = (int)lista.SelectedRows[0].Cells[0].Value;
+
+            //    comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'"; // Comando para cria a tabela
+            //    comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+
+            //    labelResultado.Text = "Resultado: Dados Excluidos!";
+
+            //    comando.Dispose();
+
+            // }
+            // catch (Exception ex)
+            // {
+            //    labelResultado.Text = "Erro: " + ex.Message;
+            // }
+            // finally
+            // {
+            //    conexao.Close();
+            // }
+
+            #endregion
+
+            #region MySQL
+
+            string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
+
+            MySqlConnection conexao = new MySqlConnection(stringConnection);
 
             try
             {
 
                 conexao.Open();
 
-                SQLiteCommand comando = new SQLiteCommand();
+                MySqlCommand comando = new MySqlCommand();
 
                 comando.Connection = conexao;
 
-                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-                string nome = txtNome.Text;
-                string email = txtEmail.Text;
+                int id = (int)lista.SelectedRows[0].Cells[0].Value;
 
-                comando.CommandText = "INSERT INTO pessoas VAlUES(" + id + ",'" + nome + "','" + email + "')"; // Comando para cria a tabela
+                comando.CommandText = "DELETE FROM pessoas WHERE id = '" + id + "'"; // Comando para cria a tabela
                 comando.ExecuteNonQuery(); // executa o comando de executar a tabela
 
-                labelResultado.Text = "Resultado: Dados Inseridos!";
+                labelResultado.Text = "Resultado: Dados Excluidos!";
 
                 comando.Dispose();
 
@@ -610,46 +654,171 @@ namespace BaseDados
 
             #endregion
 
-            #region MySQL
+        }
 
-            //string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
 
-            //MySqlConnection conexao = new MySqlConnection(stringConnection);
+            #region SQLServerCE
 
-            //try
-            //{
+            // string baseDados = Application.StartupPath + @"\DB\dbSQLServer.sdf"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
+            // string stringConnection = @"DataSource = " + baseDados + "; Password = '457321'"; // endereço onde vai ficar a base de dados
+
+            // SqlCeConnection conexao = new SqlCeConnection(stringConnection);
+
+            // try
+            // {
 
             //    conexao.Open();
 
-            //    MySqlCommand comando = new MySqlCommand();
+            //    SqlCeCommand comando = new SqlCeCommand();
 
             //    comando.Connection = conexao;
 
-            //    int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-            //    string nome = txtNome.Text;
-            //    string email = txtEmail.Text;
+            // if (txtNome.Text != "" && txtEmail.Text != "")
+            // {
 
-            //    comando.CommandText = "INSERT INTO pessoas VAlUES(" + id + ",'" + nome + "','" + email + "')"; // Comando para cria a tabela
-            //    comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+            //    // as celulas são os campos, Ex: ID, NOME, EMAIL.
+            //    int id = (int)lista.SelectedRows[0].Cells[0].Value; // aqui nos pegas a linha selecionada, depois a celula e o valor e convertemos o valor para um inteiro
 
-            //    labelResultado.Text = "Resultado: Dados Inseridos!";
+            //    string query = "UPDATE pessoas SET nome = '" + txtNome.Text + "', email = '" + txtEmail.Text + "' WHERE id LIKE '" + id + "'";
+
+            //    // DELETE FROM pessoas - APAGA TODOS OS REGISTROS (CUIDADO)
+            //    comando.CommandText = query; // Comando para cria a tabela
+            //    comando.ExecuteNonQuery(); // executa o comando de inserir dados na tabela
+
+            //    labelResultado.Text = "Resultado: Dados Atualizados!";
+
+            // } else
+            // {
+            //    MessageBox.Show("Campos estão vazios!");
+            //    return;
+            // }
 
             //    comando.Dispose();
 
-            //}
-            //catch (Exception ex)
-            //{
+            // }
+            // catch (Exception ex)
+            // {
             //    labelResultado.Text = "Erro: " + ex.Message;
-            //}
-            //finally
-            //{
+            // }
+            // finally
+            // {
             //    conexao.Close();
-            //}
+            // }
+
+            #endregion
+
+            #region SQLite
+
+            // string baseDados = Application.StartupPath + @"\DB\dbSQLite.db"; // o startupPath é o endereço de onde está o executavel, tem que ter a extenção <qualquer nome>.sdf
+            // string stringConnection = @"Data Source = " + baseDados + "; Version = 3"; // caso apareça o erro: Only SQLite Version 3 is supported at this time, coloque a version aqui para 3, que corrigira o poblema
+
+            // SQLiteConnection conexao = new SQLiteConnection(stringConnection);
+
+            // try
+            // {
+
+            //    conexao.Open();
+
+            //    SQLiteCommand comando = new SQLiteCommand();
+
+            //    comando.Connection = conexao;
+
+            //    int id = (int)lista.SelectedRows[0].Cells[0].Value;
+
+            //    if (txtNome.Text != "" && txtEmail.Text != "")
+            //    {
+
+            //        string query = "UPDATE pessoas SET nome = '" + txtNome.Text + "', email = '" + txtEmail.Text + "' WHERE id LIKE '" + id + "'";
+
+            //        comando.CommandText = query; // Comando para cria a tabela
+            //        comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+
+            //        labelResultado.Text = "Resultado: Dados Excluidos!";
+
+            //    } else
+            //    {
+            //        MessageBox.Show("Campos estão vazios!")
+            //        return;
+            //    }
+
+            //    comando.Dispose();
+
+            // }
+            // catch (Exception ex)
+            // {
+            //    labelResultado.Text = "Erro: " + ex.Message;
+            // }
+            // finally
+            // {
+            //    conexao.Close();
+            // }
+
+            #endregion
+
+            #region MySQL
+
+            string stringConnection = "server=localhost;User Id =root;database=curso_db;password=root123"; // quando já está criada
+
+            MySqlConnection conexao = new MySqlConnection(stringConnection);
+
+            try
+            {
+
+                conexao.Open();
+
+                MySqlCommand comando = new MySqlCommand();
+
+                comando.Connection = conexao;
+
+                int id = (int)lista.SelectedRows[0].Cells[0].Value;
+
+                if (txtNome.Text != "") {
+
+                    string query = "UPDATE pessoas SET nome = '" + txtNome.Text + "' WHERE id LIKE '" + id + "'";
+
+                    comando.CommandText = query; // Comando para cria a tabela
+                    comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+
+                    labelResultado.Text = "Resultado: Dados Atualizados!";
+
+                    txtNome.Text = "";
+                    txtEmail.Text = "";
+
+                } else if (txtEmail.Text != "") {
+
+                    string query = "UPDATE pessoas SET email = '" + txtEmail.Text + "' WHERE id LIKE '" + id + "'";
+
+                    comando.CommandText = query; // Comando para cria a tabela
+                    comando.ExecuteNonQuery(); // executa o comando de executar a tabela
+
+                    labelResultado.Text = "Resultado: Dados Atualizados!";
+
+                    txtNome.Text = "";
+                    txtEmail.Text = "";
+
+                } else
+                {
+                    MessageBox.Show("Campos estão vazios");
+                    return;
+                }
+
+                comando.Dispose();
+
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = "Erro: " + ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
 
             #endregion
 
         }
-
     }
     
 }
