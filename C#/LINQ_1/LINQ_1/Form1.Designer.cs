@@ -31,6 +31,10 @@
             this.lista = new System.Windows.Forms.ListBox();
             this.txtConsulta = new System.Windows.Forms.TextBox();
             this.btnExecutar = new System.Windows.Forms.Button();
+            this.btnWhere = new System.Windows.Forms.Button();
+            this.btnOrderBy = new System.Windows.Forms.Button();
+            this.btnGroupBy = new System.Windows.Forms.Button();
+            this.btnAgregacao = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -58,17 +62,62 @@
             this.btnExecutar.TabIndex = 2;
             this.btnExecutar.Text = "Executar";
             this.btnExecutar.UseVisualStyleBackColor = true;
+            this.btnExecutar.Click += new System.EventHandler(this.btnExecutar_Click);
+            // 
+            // btnWhere
+            // 
+            this.btnWhere.Location = new System.Drawing.Point(488, 93);
+            this.btnWhere.Name = "btnWhere";
+            this.btnWhere.Size = new System.Drawing.Size(215, 37);
+            this.btnWhere.TabIndex = 3;
+            this.btnWhere.Text = "Where";
+            this.btnWhere.UseVisualStyleBackColor = true;
+            this.btnWhere.Click += new System.EventHandler(this.btnWhere_Click);
+            // 
+            // btnOrderBy
+            // 
+            this.btnOrderBy.Location = new System.Drawing.Point(488, 136);
+            this.btnOrderBy.Name = "btnOrderBy";
+            this.btnOrderBy.Size = new System.Drawing.Size(215, 37);
+            this.btnOrderBy.TabIndex = 4;
+            this.btnOrderBy.Text = "Order By";
+            this.btnOrderBy.UseVisualStyleBackColor = true;
+            this.btnOrderBy.Click += new System.EventHandler(this.btnOrderBy_Click);
+            // 
+            // btnGroupBy
+            // 
+            this.btnGroupBy.Location = new System.Drawing.Point(488, 179);
+            this.btnGroupBy.Name = "btnGroupBy";
+            this.btnGroupBy.Size = new System.Drawing.Size(215, 37);
+            this.btnGroupBy.TabIndex = 5;
+            this.btnGroupBy.Text = "Group By";
+            this.btnGroupBy.UseVisualStyleBackColor = true;
+            this.btnGroupBy.Click += new System.EventHandler(this.btnGroupBy_Click);
+            // 
+            // btnAgregacao
+            // 
+            this.btnAgregacao.Location = new System.Drawing.Point(488, 222);
+            this.btnAgregacao.Name = "btnAgregacao";
+            this.btnAgregacao.Size = new System.Drawing.Size(215, 37);
+            this.btnAgregacao.TabIndex = 6;
+            this.btnAgregacao.Text = "Agregação";
+            this.btnAgregacao.UseVisualStyleBackColor = true;
+            this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(715, 376);
+            this.Controls.Add(this.btnAgregacao);
+            this.Controls.Add(this.btnGroupBy);
+            this.Controls.Add(this.btnOrderBy);
+            this.Controls.Add(this.btnWhere);
             this.Controls.Add(this.btnExecutar);
             this.Controls.Add(this.txtConsulta);
             this.Controls.Add(this.lista);
             this.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -82,6 +131,10 @@
         private System.Windows.Forms.ListBox lista;
         private System.Windows.Forms.TextBox txtConsulta;
         private System.Windows.Forms.Button btnExecutar;
+        private System.Windows.Forms.Button btnWhere;
+        private System.Windows.Forms.Button btnOrderBy;
+        private System.Windows.Forms.Button btnGroupBy;
+        private System.Windows.Forms.Button btnAgregacao;
     }
 }
 
