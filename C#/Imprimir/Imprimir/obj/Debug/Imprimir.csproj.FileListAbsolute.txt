@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\bin\Debug\Imprimir.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\bin\Debug\Imprimir.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\bin\Debug\Imprimir.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Imprimir\Imprimir\obj\Debug\Imprimir.pdb

@@ -35,21 +35,24 @@
             this.btnOrderBy = new System.Windows.Forms.Button();
             this.btnGroupBy = new System.Windows.Forms.Button();
             this.btnAgregacao = new System.Windows.Forms.Button();
+            this.btnElemento = new System.Windows.Forms.Button();
+            this.btnLambdas = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
             // 
             this.lista.Dock = System.Windows.Forms.DockStyle.Left;
             this.lista.FormattingEnabled = true;
+            this.lista.HorizontalScrollbar = true;
             this.lista.ItemHeight = 24;
             this.lista.Location = new System.Drawing.Point(0, 0);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(482, 376);
+            this.lista.Size = new System.Drawing.Size(482, 355);
             this.lista.TabIndex = 0;
             // 
             // txtConsulta
             // 
-            this.txtConsulta.Location = new System.Drawing.Point(488, 12);
+            this.txtConsulta.Location = new System.Drawing.Point(488, 0);
             this.txtConsulta.Name = "txtConsulta";
             this.txtConsulta.Size = new System.Drawing.Size(215, 32);
             this.txtConsulta.TabIndex = 1;
@@ -104,11 +107,33 @@
             this.btnAgregacao.UseVisualStyleBackColor = true;
             this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
             // 
+            // btnElemento
+            // 
+            this.btnElemento.Location = new System.Drawing.Point(488, 265);
+            this.btnElemento.Name = "btnElemento";
+            this.btnElemento.Size = new System.Drawing.Size(215, 37);
+            this.btnElemento.TabIndex = 7;
+            this.btnElemento.Text = "Elemento";
+            this.btnElemento.UseVisualStyleBackColor = true;
+            this.btnElemento.Click += new System.EventHandler(this.btnElemento_Click);
+            // 
+            // btnLambdas
+            // 
+            this.btnLambdas.Location = new System.Drawing.Point(488, 308);
+            this.btnLambdas.Name = "btnLambdas";
+            this.btnLambdas.Size = new System.Drawing.Size(215, 37);
+            this.btnLambdas.TabIndex = 8;
+            this.btnLambdas.Text = "Lambdas";
+            this.btnLambdas.UseVisualStyleBackColor = true;
+            this.btnLambdas.Click += new System.EventHandler(this.btnLambdas_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(715, 376);
+            this.ClientSize = new System.Drawing.Size(715, 355);
+            this.Controls.Add(this.btnLambdas);
+            this.Controls.Add(this.btnElemento);
             this.Controls.Add(this.btnAgregacao);
             this.Controls.Add(this.btnGroupBy);
             this.Controls.Add(this.btnOrderBy);
@@ -135,6 +160,8 @@
         private System.Windows.Forms.Button btnOrderBy;
         private System.Windows.Forms.Button btnGroupBy;
         private System.Windows.Forms.Button btnAgregacao;
+        private System.Windows.Forms.Button btnElemento;
+        private System.Windows.Forms.Button btnLambdas;
     }
 }
 

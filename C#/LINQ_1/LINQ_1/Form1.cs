@@ -37,6 +37,7 @@ namespace LINQ_1
             listaNomes.Add("Carlos");
             listaNomes.Add("Alessandra");
             listaNomes.Add("Gabriel");
+            listaNomes.Add("Gloria");
 
             #endregion
 
@@ -245,6 +246,81 @@ namespace LINQ_1
             });
 
             lista.Items.Add("O maior nome da lista é: " + maiorNome);
+
+        }
+
+        private void btnElemento_Click(object sender, EventArgs e)
+        {
+
+            lista.Items.Clear();
+
+            // Operadores de Elemento, também aplicado a consulta
+
+            // int primeiro = listaNumeros.First(); // retorna o primeiro elemento da lista
+            int primeiro = listaNumeros.FirstOrDefault(); // retorna o primeiro elemento da lista ou retorna o numero valor do tipo caso não encontre nada
+
+            lista.Items.Add(primeiro);
+
+            // int primeiro = listaNumeros.Last(); // retorna o primeiro elemento da lista
+            int ultimo = listaNumeros.LastOrDefault(); // retorna o ultimo elemento da lista ou retorna o numero valor do tipo caso não encontre nada
+            lista.Items.Add(ultimo);
+
+            // int elementoEm = listaNumeros.ElementAtOrDefault(3); // retorna o elemento que está na posição x
+            int elementoEm = listaNumeros.ElementAtOrDefault(3); // retorna o elemento que está na posição x ou retorna o valor padrão do tipo caso não encontre nada
+
+            lista.Items.Add(elementoEm);
+
+            var consulta = from num in listaNumeros where num > 1000 select num;
+            int numero = consulta.FirstOrDefault(); // First(), como a lista não contem nenhum numero maior que 1000 ele gera um erro, mas com o default ele coloca o valor padrão do tipo da variavel
+
+            lista.Items.Add(numero);
+
+        }
+
+        private void btnLambdas_Click(object sender, EventArgs e)
+        {
+
+            lista.Items.Clear();
+
+            // consulta da forma mais verbosa
+            // var cons1 = from nome in listaNomes select nome; // comum
+
+            // var cons1 = listaNomes.Select((nome) => nome ); // usando lambda
+
+            // lista.Items.AddRange(cons1.ToArray());
+
+            // var const2 = from nome in listaNomes where nome.StartsWith("G") select nome;
+
+            // var cons2 = listaNomes.Where((nome) => nome.StartsWith("G"));
+            // lista.Items.AddRange(cons2.ToArray());
+
+            // var cons3 = from nome in listaNomes orderby nome select nome;
+
+            // var cons3 = listaNomes.OrderBy((nome) => nome);
+            // var cons3 = listaNomes.OrderByDescending((nome) => nome);
+            // lista.Items.AddRange(cons3.ToArray());
+
+            // var cons4 = from estado in listaEstados group estado by estado.Value;
+
+            // foreach (var pais in cons4)
+            // {
+            //    lista.Items.Add(pais.Key);
+            //    foreach (var estado in pais)
+            //    {
+            //        lista.Items.Add("   " + estado.Key);
+            //    }
+            // }
+
+            var cons4 = listaEstados.GroupBy((estado) => estado.Value);
+
+            foreach (var pais in cons4)
+            {
+                lista.Items.Add(pais.Key);
+                foreach (var estado in pais)
+                {
+                    lista.Items.Add("   " + estado.Key);
+                }
+            }
 
         }
 
