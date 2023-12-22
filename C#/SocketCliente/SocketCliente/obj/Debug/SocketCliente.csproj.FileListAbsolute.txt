@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\bin\Debug\SocketCliente.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\bin\Debug\SocketCliente.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\bin\Debug\SocketCliente.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\obj\Debug\SocketCliente.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\obj\Debug\SocketCliente.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\obj\Debug\SocketCliente.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketCliente\SocketCliente\obj\Debug\SocketCliente.pdb

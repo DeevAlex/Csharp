@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
