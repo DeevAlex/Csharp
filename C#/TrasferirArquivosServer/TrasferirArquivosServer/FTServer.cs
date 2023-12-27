@@ -37,7 +37,7 @@ namespace TrasferirArquivosServer
                 ListaMensagem.Invoke(new Action(() => {
 
                     ListaMensagem.Items.Clear();
-                    ListaMensagem.Items.Add("Erro ao iniciar o servidor: " + ex);
+                    ListaMensagem.Items.Add("Erro ao iniciar o servidor: " + ex.Message);
                     ListaMensagem.SetSelected(ListaMensagem.Items.Count - 1, true); // para dar um scroll caso passe da area visivel
 
 
@@ -53,7 +53,6 @@ namespace TrasferirArquivosServer
                 soc_servidor.Listen(100);
                 ListaMensagem.Invoke(new Action(() => {
 
-                    ListaMensagem.Items.Clear();
                     ListaMensagem.Items.Add("Servidor em atendimento e aguardando para receber arquivo...");
                     ListaMensagem.SetSelected(ListaMensagem.Items.Count - 1, true); // para dar um scroll caso passe da area visivel
 
@@ -87,8 +86,7 @@ namespace TrasferirArquivosServer
 
                     ListaMensagem.Invoke(new Action(() => {
 
-                        ListaMensagem.Items.Clear();
-                        ListaMensagem.Items.Add("Arquivo recebido e arquivado [" + nomeArquivo + "]");
+                        ListaMensagem.Items.Add("Arquivo recebido e arquivado [" + nomeArquivo + "] (" + (tamanhoBytesRecebidos - 4 - tamanhoNomeArquivo) + " bytes recebido)");
                         ListaMensagem.SetSelected(ListaMensagem.Items.Count - 1, true); // para dar um scroll caso passe da area visivel
 
 

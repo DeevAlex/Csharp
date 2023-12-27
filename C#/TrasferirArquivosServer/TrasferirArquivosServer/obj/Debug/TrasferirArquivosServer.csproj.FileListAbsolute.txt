@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\bin\Debug\TrasferirArquivosServer.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\bin\Debug\TrasferirArquivosServer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\bin\Debug\TrasferirArquivosServer.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TrasferirArquivosServer\TrasferirArquivosServer\obj\Debug\TrasferirArquivosServer.pdb

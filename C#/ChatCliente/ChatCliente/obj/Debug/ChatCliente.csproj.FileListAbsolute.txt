@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\bin\Debug\ChatCliente.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\bin\Debug\ChatCliente.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\bin\Debug\ChatCliente.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ChatCliente\ChatCliente\obj\Debug\ChatCliente.pdb
