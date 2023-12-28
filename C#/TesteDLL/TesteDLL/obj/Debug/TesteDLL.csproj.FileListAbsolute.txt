@@ -1,0 +1,12 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\bin\Debug\TesteDLL.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\bin\Debug\TesteDLL.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\bin\Debug\TesteDLL.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\bin\Debug\Operacoes.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.csproj.CopyComplete
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TesteDLL\TesteDLL\obj\Debug\TesteDLL.pdb

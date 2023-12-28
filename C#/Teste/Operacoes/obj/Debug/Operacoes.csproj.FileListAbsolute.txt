@@ -1,0 +1,6 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\bin\Debug\Operacoes.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\bin\Debug\Operacoes.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\obj\Debug\Operacoes.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\obj\Debug\Operacoes.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\obj\Debug\Operacoes.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Teste\Operacoes\obj\Debug\Operacoes.pdb
