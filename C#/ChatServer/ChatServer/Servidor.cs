@@ -105,7 +105,7 @@ namespace ChatServer
             StreamWriter swSenderSender;
 
             // Exibe primeiro na aplicação
-            e = new StatusChangedEventArgs("Administrador: " + mensagem);
+            e = new StatusChangedEventArgs(mensagem);
             OnStatusChanged(e);
 
             // Cria um array de clientes TCPs do tamanho do numero de clientes existentes
@@ -130,7 +130,7 @@ namespace ChatServer
 
                     // Envia a mensagem para o usuario atual no laço
                     swSenderSender = new StreamWriter(tcpClientes[i].GetStream());
-                    swSenderSender.WriteLine("Administrador: " + mensagem);
+                    swSenderSender.WriteLine($"{mensagem} - {DateTime.Now.DayOfWeek} {DateTime.Now.Hour}:{DateTime.Now.Minute}:{DateTime.Now.Second}");
                     swSenderSender.Flush(); // libera recursos
                     swSenderSender = null; // para não guardar os recursos do usuario
 
@@ -154,7 +154,7 @@ namespace ChatServer
             StreamWriter swSenderSender;
 
             // Primeiro exibe a mensagem na aplicação
-            e = new StatusChangedEventArgs(origem + " disse: " + mensagem);
+            e = new StatusChangedEventArgs($"{origem}: {mensagem}");
             OnStatusChanged(e);
 
             // cria um array de clientes TCPs do tamanho do numero de clientes existentes
@@ -179,7 +179,8 @@ namespace ChatServer
 
                     // Envia a mensagem para o usuario atual no laço
                     swSenderSender = new StreamWriter(tcpClientes[i].GetStream());
-                    swSenderSender.WriteLine(origem + " disse: " + mensagem);
+                    swSenderSender.WriteLine($"{origem}: {mensagem}");
+                    swSenderSender.WriteLine($"{(DateTime.Now.Hour)}:{(DateTime.Now.Minute)}:{(DateTime.Now.Second)}");
                     swSenderSender.Flush(); // libera recursos
                     swSenderSender = null; // para não guardar os recursos do usuario
 

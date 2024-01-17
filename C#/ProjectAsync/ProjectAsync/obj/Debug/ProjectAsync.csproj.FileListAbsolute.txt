@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\bin\Debug\ProjectAsync.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\bin\Debug\ProjectAsync.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\bin\Debug\ProjectAsync.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\ProjectAsync\ProjectAsync\obj\Debug\ProjectAsync.pdb
