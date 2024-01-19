@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\bin\Debug\Graficos.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\bin\Debug\Graficos.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\bin\Debug\Graficos.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\Graficos\Graficos\obj\Debug\Graficos.pdb
