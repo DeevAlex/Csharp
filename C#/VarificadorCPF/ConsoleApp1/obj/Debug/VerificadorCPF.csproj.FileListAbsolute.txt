@@ -1,0 +1,14 @@
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\VerificadorCPF.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\VerificadorCPF.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Alex\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\obj\Debug\VerificadorCPF.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\obj\Debug\VerificadorCPF.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Alex\source\repos\ValidadorCPF\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

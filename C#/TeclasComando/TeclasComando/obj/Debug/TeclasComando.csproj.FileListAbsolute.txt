@@ -1,0 +1,10 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\bin\Debug\TeclasComando.exe.config
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\bin\Debug\TeclasComando.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\bin\Debug\TeclasComando.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.csproj.AssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.Properties.Resources.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\TeclasComando\TeclasComando\obj\Debug\TeclasComando.pdb
