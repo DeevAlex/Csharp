@@ -10,7 +10,7 @@ namespace VerificadorCPF
     {
         static void Main(string[] args)
         {
-            string cpf = ""; // Substitua pelo CPF que você deseja verificar
+            string cpf = "512.604.250-53"; // Substitua pelo CPF que você deseja verificar
 
             if (IsCpfValido(cpf))
             {

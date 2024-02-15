@@ -1,0 +1,17 @@
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\bin\Debug\net8.0-windows\EditorTXT.exe
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\bin\Debug\net8.0-windows\EditorTXT.deps.json
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\bin\Debug\net8.0-windows\EditorTXT.runtimeconfig.json
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\bin\Debug\net8.0-windows\EditorTXT.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\bin\Debug\net8.0-windows\EditorTXT.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.Form1.resources
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.AssemblyInfoInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.AssemblyInfo.cs
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.sourcelink.json
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\refint\EditorTXT.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.pdb
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\EditorTXT.genruntimeconfig.cache
+C:\Users\Alex\Documents\GitHub\Csharp\C#\EditorTXT\obj\Debug\net8.0-windows\ref\EditorTXT.dll

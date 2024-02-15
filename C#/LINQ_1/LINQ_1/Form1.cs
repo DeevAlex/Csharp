@@ -90,7 +90,7 @@ namespace LINQ_1
             lista.Items.Clear();
 
             // Metodo comum
-            // foreach (int num in listaNumeros) // ele percorre toda a lista procutando quem é par 
+            // foreach (int num in listaNumeros) // ele percorre toda a lista procutando quem é par
             // {
 
             //    if (num % 2 == 0)
@@ -100,7 +100,7 @@ namespace LINQ_1
 
             // }
 
-            // UTILIZANDO LINQ  
+            // UTILIZANDO LINQ
 
             // Obter a fonte dos dados
             // criar a consulta
@@ -126,7 +126,7 @@ namespace LINQ_1
 
             // foreach (string nome in res2)
             // {
-                
+
             //    lista.Items.Add(nome);
 
             // }
@@ -174,7 +174,7 @@ namespace LINQ_1
             lista.Items.Clear();
 
             txtConsulta.Text = "";
-                
+
             var res = from estado in listaEstados group estado by estado.Value; // aqui estamos agrupado os estados pelo valor (O valor é o nome dos paises)
 
             // listando apenas os paises
