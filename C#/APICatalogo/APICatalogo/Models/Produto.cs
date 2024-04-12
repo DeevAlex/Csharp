@@ -1,10 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using APICatalogo.Validations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APICatalogo.Models;
 
+// A classe produto representando o nosso modelo de dominio
+
 [Table("Produtos")]
-public class Produto
+public class Produto : IValidatableObject // devemos implentar a interface 'IValidatableObject' para implementar a validação nesse modelo (a nivel de modelo)
 {
 
     // Classes Anêmicas é quando não possui comportamento, apenas possui propriedades
@@ -22,20 +26,22 @@ public class Produto
     [Key]
     public int ProdutoId { get; set; } // aqui será a chave primaria, tem que ser chamada ProdutoId ou Id
 
-    [Required]
+    [Required(ErrorMessage = "O nome é obrigatório")]
     [StringLength(80)]
+    // [PrimeiraLetraMaiuscula] // nossa validação usando um atributo customizado, caso tenha uma validação a nivel do modelo e um atributo customizado, o atributo customizado vai ter preferencia em ser executado
     public string? Nome { get; set; }
 
     [Required]
-    [StringLength(300)]
+    [StringLength(300, ErrorMessage = "A descrição deve ter no máximo {1} caracteres")]
     public string? Descricao { get; set; }
 
     [Required]
+    [Range(1, 10000, ErrorMessage = "O Preço deve estar entre {1} e {2}")]
     [Column(TypeName = "decimal(10, 2)")] // indica a precisão decimal com 10 digitos e 2 casas decimais
     public decimal Preco { get; set; }
 
     [Required]
-    [StringLength(300)]
+    [StringLength(300, MinimumLength = 10)]
     public string? ImagemUrl { get; set; }
 
     public float Estoque { get; set; }
@@ -44,6 +50,36 @@ public class Produto
 
     // Incluimos uma propriedade CategoriaId que mapeia para a chave estrangeira no banco de dados e uma propriedade de navegação Categoria para indicar que um Produto está relacionado com uma Categoria
     public int CategoriaId { get; set; } // Mapeia
+
+    [JsonIgnore] // vai ignorar no JSON inves de mostrar o Produto e Categoria apenas vai mostrar Produto no JSON
     public Categoria? Categoria { get; set; } // Relacionamento 
+
+    // essa validação é restrita apenas para esse modelo
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+
+        // se o valor da propriedade 'this.Nome' for nulo ou vazio se for diferente dessa condição entra no bloco de codigo
+        if (!string.IsNullOrEmpty(this.Nome))
+        {
+
+            var primeiraLetra = this.Nome.ToString()[0].ToString();
+
+            if (primeiraLetra != primeiraLetra.ToUpper())
+            {
+                
+                // definindo a mensagem de erro e uma lista de membros que possui erros de validação (o operador nameof retorna o nome do tipo), o yield indica que o metodo ou o operador e um iterador e nos usamos o yield para retornar cada elemento individualmente (é um atalho de codigo)
+                yield return new ValidationResult("A primeira letra do nome do produto deve ser maiúscula!", new[] { nameof(this.Nome) });
+
+            }
+
+        }
+
+        // validando a propriedade 'Estoque' e la em cima a propriedade 'Nome'
+        if (this.Estoque <= 0)
+        {
+            yield return new ValidationResult("O estoque deve ser maior que zero", new[] { nameof(this.Estoque) });
+        }
+
+    }
 
 }
