@@ -41,10 +41,13 @@ public class Produto : IValidatableObject // devemos implentar a interface 'IVal
     public decimal Preco { get; set; }
 
     [Required]
-    [StringLength(300, MinimumLength = 10)]
+    [StringLength(300, MinimumLength = 6)]
     public string? ImagemUrl { get; set; }
 
-    public float Estoque { get; set; }
+    [Required]
+    [Range(1, 9999, ErrorMessage = "O numero de estoque deve estar entre 1 e 9999")]
+    [Column(TypeName = "int(4)")]
+    public int Estoque { get; set; }
     public DateTime DataCadastro { get; set; }
 
 
@@ -74,10 +77,15 @@ public class Produto : IValidatableObject // devemos implentar a interface 'IVal
 
         }
 
+        if (this.Nome == "string")
+        {
+            yield return new ValidationResult("O nome não pode ser 'string'", [nameof(this.Nome)]);
+        }
+
         // validando a propriedade 'Estoque' e la em cima a propriedade 'Nome'
         if (this.Estoque <= 0)
         {
-            yield return new ValidationResult("O estoque deve ser maior que zero", new[] { nameof(this.Estoque) });
+            yield return new ValidationResult("O estoque deve ser maior que zero", [nameof(this.Estoque)]);
         }
 
     }

@@ -3,80 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|c:\\users\\alex\\documents\\github\\csharp\\c#\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|c:\\users\\alex\\documents\\github\\csharp\\c#\\apicatalogo\\apicatalogo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|c:\\users\\alex\\documents\\github\\csharp\\c#\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|c:\\users\\alex\\documents\\github\\csharp\\c#\\apicatalogo\\apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\validations\\primeiraletramaiusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\apicatalogo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\apicatalogo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\services\\meuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\services\\meuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\services\\imeuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\services\\imeuservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\migrations\\20240309235425_ajustetabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\migrations\\20240309235425_ajustetabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\migrations\\20240310031226_populacategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\migrations\\20240310031226_populacategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\migrations\\20240310031618_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\migrations\\20240310031618_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\apicatalogo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\apicatalogo\\apicatalogo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3ECE48E4-DF52-4BF1-9950-97DBA262C8FE}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\apicatalogo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,67 +43,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Models\\Produto.cs",
-              "RelativeToolTip": "APICatalogo\\Models\\Produto.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAqwB4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T17:37:57.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "APICatalogo.http",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.http",
-              "RelativeDocumentMoniker": "APICatalogo\\APICatalogo.http",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.http",
-              "RelativeToolTip": "APICatalogo\\APICatalogo.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-07T17:34:36.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PrimeiraLetraMaiusculaAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "RelativeToolTip": "APICatalogo\\Validations\\PrimeiraLetraMaiusculaAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T04:52:46.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "APICatalogo\\Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T20:31:21.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Program.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Program.cs",
-              "RelativeToolTip": "APICatalogo\\Program.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T17:34:21.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\appsettings.Development.json",
               "RelativeDocumentMoniker": "APICatalogo\\appsettings.Development.json",
@@ -163,162 +50,72 @@
               "RelativeToolTip": "APICatalogo\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-31T23:11:21.451Z"
+              "WhenOpened": "2024-06-21T02:23:03.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
               "RelativeDocumentMoniker": "APICatalogo\\appsettings.json",
               "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\appsettings.json",
               "RelativeToolTip": "APICatalogo\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-07T17:34:24.079Z"
+              "WhenOpened": "2024-06-21T02:11:19.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Models\\Categoria.cs",
-              "RelativeToolTip": "APICatalogo\\Models\\Categoria.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAQwBAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APICatalogo\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAA9wGcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T06:01:20.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IMeuServico.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\IMeuServico.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Services\\IMeuServico.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\IMeuServico.cs",
-              "RelativeToolTip": "APICatalogo\\Services\\IMeuServico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T05:09:49.714Z"
+              "WhenOpened": "2024-06-20T21:41:36.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "APICatalogo\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAewE0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T04:12:31.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MeuServico.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\MeuServico.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Services\\MeuServico.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\MeuServico.cs",
-              "RelativeToolTip": "APICatalogo\\Services\\MeuServico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T05:10:58.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "APICatalogo\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T18:08:18.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240309235425_AjusteTabelas.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240309235425_AjusteTabelas.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Migrations\\20240309235425_AjusteTabelas.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240309235425_AjusteTabelas.cs",
-              "RelativeToolTip": "APICatalogo\\Migrations\\20240309235425_AjusteTabelas.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCgAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-09T23:54:35.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "APICatalogo\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T02:53:36.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240310031226_populaCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240310031226_populaCategorias.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Migrations\\20240310031226_populaCategorias.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240310031226_populaCategorias.cs",
-              "RelativeToolTip": "APICatalogo\\Migrations\\20240310031226_populaCategorias.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T03:12:46.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20240310031618_populaProdutos.cs",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240310031618_populaProdutos.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Migrations\\20240310031618_populaProdutos.cs",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Migrations\\20240310031618_populaProdutos.cs",
-              "RelativeToolTip": "APICatalogo\\Migrations\\20240310031618_populaProdutos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T03:16:20.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "APICatalogo.csproj",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-              "RelativeDocumentMoniker": "APICatalogo\\APICatalogo.csproj",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-              "RelativeToolTip": "APICatalogo\\APICatalogo.csproj",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "APICatalogo\\Controllers\\CategoriasController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-07T06:00:53.023Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:41:46.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "APICatalogo\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Properties\\launchSettings.json",
-              "RelativeToolTip": "APICatalogo\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-07T05:54:53.495Z"
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Services\\TokenService.cs",
+              "RelativeToolTip": "APICatalogo\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAlwBoAAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:19:17.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "APICatalogo",
-              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-              "RelativeDocumentMoniker": "APICatalogo\\APICatalogo.csproj",
-              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\APICatalogo.csproj",
-              "RelativeToolTip": "APICatalogo\\APICatalogo.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-07T05:54:52.586Z"
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeToolTip": "APICatalogo\\Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAMwEgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T20:57:10.684Z",
+              "EditorCaption": ""
             }
           ]
         }

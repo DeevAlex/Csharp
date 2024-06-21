@@ -1,9 +1,12 @@
 ﻿using APICatalogo.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace APICatalogo.Context;
 
-public class AppDbContext : DbContext
+// public class AppDbContext : DbContext (Antes de usar o Identity)
+public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
 
     // a ConnectionString vai no appsettings.json
@@ -21,5 +24,10 @@ public class AppDbContext : DbContext
 
     public DbSet<Categoria>? Categorias { get; set; } // podemos definir essas propriedades como nullable isso é util se quisermos garantir que a propriedade seja opcional
     public DbSet<Produto>? Produtos { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+    }
 
 }

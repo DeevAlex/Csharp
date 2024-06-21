@@ -1,6 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APICatalogo.Models;
 
@@ -41,5 +42,6 @@ public class Categoria
     public string? ImagemUrl { get; set; }
 
     // Definimos um relacionamento 1 para Muitos, Uma Categoria pode ter mais de um produto
+    [JsonIgnore] // Para ignorar no json o array de produtos que contém os produtos da tabela produtos utilize o essa tag
     public ICollection<Produto>? Produtos { get; set; }
 }
