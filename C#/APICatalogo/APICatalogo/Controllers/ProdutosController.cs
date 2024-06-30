@@ -61,6 +61,7 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet] // No metodo action podemos retornar todos os metodos da classe ActionResult ou o tipo que ele quer retornar que no caso é o IEnumerable<Produto>
+        [Authorize(Policy = "UserOnly")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() // Usamos o IEnumerable porque aqui temos uma interface só de leitura e ele permite adiar a execução (ou seja ele trabalha por demanda) e não precisamos ter toda a coleção em memoria e ele é mais otimizado
         {
             // através do contexto (_context) podemos acessar a tabela Produtos, ele sabe que tem que porque definimos no contexto (nessa linha: public DbSet<Produto>? Produtos { get; set; })

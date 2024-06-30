@@ -37,7 +37,6 @@ public class TokenService : ITokenService
 
         return token;
 
-
     }
 
     // RefreshToken - Token de Atualização, que é usado para obter um novo token de acesso, utilizado para facilitar a experiencia do usuario

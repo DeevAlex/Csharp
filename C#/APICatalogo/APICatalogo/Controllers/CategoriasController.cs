@@ -5,6 +5,7 @@ using APICatalogo.Models;
 using APICatalogo.Pagination;
 using APICatalogo.Repositories;
 using APICatalogo.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
@@ -120,6 +121,7 @@ namespace APICatalogo.Controllers
             return Ok(categoriasDTO);
         }
 
+        [Authorize] // todos logados poderão usar esse endpoint
         [HttpGet] // No metodo action podemos retornar todos os metodos da classe ActionResult ou o tipo que ele quer retornar que no caso é o IEnumerable<Produto>
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get() // Usamos o IEnumerable porque aqui temos uma interface só de leitura e ele permite adiar a execução (ou seja ele trabalha por demanda) e não precisamos ter toda a coleção em memoria e ele é mais otimizado
         {
@@ -241,6 +243,7 @@ namespace APICatalogo.Controllers
 
 
         [HttpDelete("{id:int}")]
+        [Authorize(Policy = "AdminOnly")] // Apenas quem tiver esse perfil 'AdminOnly' poderá usar esse endpoint
         public async Task<ActionResult<CategoriaDTO>> Delete(int id)
         {
 
@@ -263,4 +266,5 @@ namespace APICatalogo.Controllers
         }
 
     }
+
 }

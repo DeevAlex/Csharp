@@ -1,5 +1,4 @@
-﻿using APICatalogo.Validations;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
@@ -71,7 +70,7 @@ public class Produto : IValidatableObject // devemos implentar a interface 'IVal
             {
                 
                 // definindo a mensagem de erro e uma lista de membros que possui erros de validação (o operador nameof retorna o nome do tipo), o yield indica que o metodo ou o operador e um iterador e nos usamos o yield para retornar cada elemento individualmente (é um atalho de codigo)
-                yield return new ValidationResult("A primeira letra do nome do produto deve ser maiúscula!", new[] { nameof(this.Nome) });
+                yield return new ValidationResult("A primeira letra do nome do produto deve ser maiúscula!", [nameof(this.Nome)]);
 
             }
 

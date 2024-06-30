@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -32,6 +33,20 @@ builder.Services.AddControllers(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles; // Vai ignorar quando ocorrer uma referencia ciclica
 }).AddNewtonsoftJson(); // devemos configurar o NewtonSoftJson aqui para usar os recursos desse pacote
+
+// Habilitando o CORS no middleware usando uma politica nomeada ou uma politica padrão
+var OrigensComAcessoPermitido = "_origensComAcessoPermitido";
+
+builder.Services.AddCors(options =>
+{
+    // Restringe os requests CORS às origens especificadas na politica
+    options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io")); // essa politica está definindo qual origem vai poder ter acesso a nossa API, podemos colocar outras origens também, não pode ter a barra direita no final da url, Ex.: 'http://www.apirequest.io/'.
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.AllowAnyOrigin()); // Permite requests CORS de todas as origens.
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyMethod()); // Permite qualquer método HTTP (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE, CONNECT).
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithMethods("GET", "POST")); // Restringe para os métodos HTTP (GET, POST).
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyHeader()); // Permite todos os cabeçalhos.
+    options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithHeaders("HeadersName.ContentType", "x-meu-header")); // Restringe o header ao especificado na politica CORS
+});
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -73,7 +88,13 @@ var valor1 = builder.Configuration["chave1"];
 var valor2 = builder.Configuration["secao1:chave2"];
 
 // Definindo o esquema de autenticaçao JWT (Precisa instalar o pacote 'Microsoft.AspNetCore.Authentication.JwtBearer')
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin")); // adicionando uma politica, "AdminOnly" é o nome dela e na função lambda estamos definindo os requisitos que o usuario deve atender ele deve haver o perfil 'Admin'
+    options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole("Admin").RequireClaim("id", "macoratti")); // o metodo RequireClaim, exige que o usuario tenha uma claim especifica para acessar um recurso protegido
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("User"));
+    options.AddPolicy("ExclusiveOnly", policy => policy.RequireAssertion(context => context.User.HasClaim(claim => claim.Type == "id" && claim.Value == "macoratti" || context.User.IsInRole("SuperAdmin")))); // RequireAssertion, permite definir uma expressão lambda e com uma condição customizada para autorização
+});
 //builder.Services.AddAuthentication("Bearer").AddJwtBearer(); // quando estamos utilizando o 'user-jwts'
 
 // Configurando o Identity (Deve ser feito antes do Build()), IdentityUser (Representa os usuarios) - Foi trocado pelo 'ApplicationUser', IdentityRole (Representa as funções do usuario e informações do usuario relacionado aos perfis) são os perfis do Identity, AddEntityFrameworkStores (configura EF Core como mecanismo para armazenar os dados relacionado com a classe de contexto), AddDefaultTokenProviders (Adicionando os provedores de token padrão para lidar com operações relacionadas a autenticação) - NÃO PRECISAMOS DO IDENTITY PARA IMPLEMENTAR O TOKEN JWT, mas estamos fazendo para saber como usar o identity
@@ -152,6 +173,13 @@ app.UseHttpsRedirection();
 // middleware de autenticação deve vir antes do middleware de autorização
 app.UseAuthentication();
 
+app.UseStaticFiles();
+
+app.UseRouting();
+
+// deve estar entre esses dois middlewares e depois do middleware UseStaticFiles
+app.UseCors(OrigensComAcessoPermitido); // habilitando o suporte CORS 
+
 app.UseAuthorization();
 
 // Um request delegate é uma função que recebe um objeto de contexto do request HTTP e executa uma lógica especifica para esse request
@@ -176,6 +204,8 @@ app.MapControllers(); // Inclui os endPoints dos metodos actions do controlador,
 app.Run();
 
 
+
+
 // Gerenciando tokens com dotnet user-jwts
 // dotnet user-jwts create - Gera um token JWT(*) com um ID definido
 // dotnet user-jwts list - Lista todos os tokens JWT emitidos
@@ -188,3 +218,10 @@ app.Run();
 // (*) - Registra automaticamente um conjunto de números secretos < UserSecretsld> exigidos pelo
 // Secret Manager no arquivo de projeto csproj e define as configurações de autenticação no arquivo
 // appsettings.json para o desenvolvimento.
+
+
+
+// Ordem dos Middlewares (Pipeline de processamento de request): 
+
+// Request > ExceptionHandler > HSTS > HttpsRedirection > Static Files > Routing > CORS > Authentication > Authorization > Custom1 > Custom... > EndPoint - (Custom1 > Custom...) são middlewares customizados
+// Response < ExceptionHandler < HSTS < HttpsRedirection < Static Files < Routing < CORS < Authentication < Authorization < Custom1 < Custom... < EndPoint

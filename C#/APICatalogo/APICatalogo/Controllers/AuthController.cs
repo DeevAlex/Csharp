@@ -20,13 +20,15 @@ public class AuthController : ControllerBase
     private readonly UserManager<ApplicationUser>? _userManager; // injetando o userManager com o 'ApplicationUser', ele vai tratar com os usuarios 
     private readonly RoleManager<IdentityRole>? _roleManager; // vai tratar com os perfis, as permissões do usuario
     private readonly IConfiguration? _config; // vai ser usado para acessarmos as informações que foram definidas no 'appsettings.json'
+    private readonly ILogger<AuthController> _logger;
 
-    public AuthController(ITokenService? tokenService, UserManager<ApplicationUser>? userManager, RoleManager<IdentityRole>? roleManager, IConfiguration? config)
+    public AuthController(ITokenService? tokenService, UserManager<ApplicationUser>? userManager, RoleManager<IdentityRole>? roleManager, IConfiguration? config, ILogger<AuthController> logger)
     {
         _tokenService = tokenService;
         _userManager = userManager;
         _roleManager = roleManager;
         _config = config;
+        _logger = logger;
     }
 
     [HttpPost]
@@ -45,6 +47,7 @@ public class AuthController : ControllerBase
             {
                 new Claim(ClaimTypes.Name, user.UserName!),
                 new Claim(ClaimTypes.Email, user.Email!),
+                new Claim("id", user.UserName!), // criando uma claim especifica, o Id é a chave e o username é o valor
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()), // essa claim é usada para fornecer um identificador exclusivo para o token (Um GUID é uma sequência de caracteres hexadecimal de 32 digitos, geralmente exibida em grupos separados por hifens, como "6F9619FF-8B86-D011-B42D-00C04FC964FF".)
             };
 
@@ -78,6 +81,8 @@ public class AuthController : ControllerBase
         // caso a verificação anterior não seja verdadeira irá retornar o codigo 401 - Unauthorized
         return Unauthorized();
 
+        // Codigo 403 - Forbidden, cliente foi autenticado, porém não tem a permissão para acessar o recurso, metodo para retornar o status é o Forbid()
+
     }
 
     [HttpPost]
@@ -106,7 +111,7 @@ public class AuthController : ControllerBase
             return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Erro", Message = "User Creation Faild" });
         }
 
-        return Ok(new Response { Status = "Success", Message = "User Create Successfully" }); // mostra que o usuario foi criado
+        return Ok(new Response { Status = "Success", Message = "User Created Successfully" }); // mostra que o usuario foi criado
 
     }
 
@@ -155,9 +160,9 @@ public class AuthController : ControllerBase
 
     }
 
-    [Authorize]
     [HttpPost]
     [Route("revoke/{username}")]
+    [Authorize(Policy = "ExclusiveOnly")]
     public async Task<IActionResult> Revoke(string username)
     {
 
@@ -170,6 +175,68 @@ public class AuthController : ControllerBase
         await _userManager.UpdateAsync(user); // atualizamos as informações no BD
 
         return NoContent(); // 204
+
+    }
+
+
+    [HttpPost]
+    [Route("CreateRole")]
+    [Authorize(Policy = "SuperAdminOnly")]
+    public async Task<IActionResult> CreateRole(string roleName)
+    {
+
+        var roleExists = await _roleManager.RoleExistsAsync(roleName); // verificando se existe uma role com esse nome
+
+        if (!roleExists) // se não existe 
+        {
+
+            var roleResult = await _roleManager.CreateAsync(new IdentityRole(roleName)); // cria a nova role
+
+            if (roleResult.Succeeded) // se criou com sucesso
+            {
+                _logger.LogInformation(1, "Roles Added"); // logo a informação
+                return StatusCode(StatusCodes.Status200OK, new Response { Status = "Sucesso", Message = $"Role {roleName} added successfully" }); // retorna um codigo 200
+            }
+            else
+            {
+                _logger.LogInformation(2, "Erro"); // logo a informação
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Erro", Message = $"Issue adding the new '{roleName}' role" }); // retorna um codigo 400
+            }
+        
+
+        }
+
+        // se existir retorna um codigo 400
+        return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Erro", Message = "Role already exists" });
+
+    }
+
+    [HttpPost]
+    [Route("AddUserToRole")]
+    [Authorize(Policy = "SuperAdminOnly")]
+    public async Task<IActionResult> AddUserToRole(string email, string roleName)
+    {
+
+        var user = await _userManager.FindByEmailAsync(email); // procurando o usuario pelo email informado
+
+        if (user != null) // se ele existir
+        {
+
+            var result = await _userManager.AddToRoleAsync(user, roleName); // atribui a role ao usuario
+
+            if (result.Succeeded) // se a role foi atribuida
+            {
+                _logger.LogInformation(1, $"User {user.Email} added to the {roleName} role"); // logando a informação na log da api
+                return StatusCode(StatusCodes.Status200OK, new Response { Status = "Sucesso", Message = $"User {user.Email} added to the {roleName} role" });
+            } else
+            {
+                _logger.LogInformation(1, $"Erro: unable to add user {user.Email} to the {roleName} role");
+                return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Erro", Message = $"Erro: unable to add user {user.Email} to the {roleName} role" });
+            }
+
+        }
+
+        return BadRequest(new { erro = "Unable to find user" }); // se não achar o usuario
 
     }
 
