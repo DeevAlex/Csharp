@@ -35,17 +35,25 @@ builder.Services.AddControllers(options =>
 }).AddNewtonsoftJson(); // devemos configurar o NewtonSoftJson aqui para usar os recursos desse pacote
 
 // Habilitando o CORS no middleware usando uma politica nomeada ou uma politica padrão
-var OrigensComAcessoPermitido = "_origensComAcessoPermitido";
+//var OrigensComAcessoPermitido = "_origensComAcessoPermitido";
 
 builder.Services.AddCors(options =>
 {
     // Restringe os requests CORS às origens especificadas na politica
-    options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io")); // essa politica está definindo qual origem vai poder ter acesso a nossa API, podemos colocar outras origens também, não pode ter a barra direita no final da url, Ex.: 'http://www.apirequest.io/'.
-    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.AllowAnyOrigin()); // Permite requests CORS de todas as origens.
-    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyMethod()); // Permite qualquer método HTTP (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE, CONNECT).
-    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithMethods("GET", "POST")); // Restringe para os métodos HTTP (GET, POST).
-    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyHeader()); // Permite todos os cabeçalhos.
-    options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithHeaders("HeadersName.ContentType", "x-meu-header")); // Restringe o header ao especificado na politica CORS
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io")); // essa politica está definindo qual origem vai poder ter acesso a nossa API, podemos colocar outras origens também, não pode ter a barra direita no final da url, Ex.: 'http://www.apirequest.io/'.
+    // options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.AllowAnyOrigin()); // Permite requests CORS de todas as origens.
+    // options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyMethod()); // Permite qualquer método HTTP (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE, CONNECT).
+    // options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithMethods("GET", "POST")); // Restringe para os métodos HTTP (GET, POST).
+    // options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyHeader()); // Permite todos os cabeçalhos.
+    // options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").WithHeaders("HeadersName.ContentType", "x-meu-header")); // Restringe o header ao especificado na politica CORS
+    //options.AddPolicy(name: OrigensComAcessoPermitido, policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyHeader().AllowAnyMethod().AllowCredentials()); // O navegador por padrão não envia credenciais com uma solicitação de origem cruzada (pode ser cookies e esquemas de autenticação HTTP), Para enviar credenciais com uma solicitação de origem cruzada, o cliente deve definir XMLHttpRequest.withCredentials como true, lembrando que permitir credenciais entre origens é um risco de segurança
+    // options.AddDefaultPolicy(policy => policy.WithOrigins("http://www.apirequest.io").AllowAnyHeader().AllowAnyMethod().AllowCredentials()); // definindo uma politica CORS padrão, com ela o metodo UseCors() fica sem parametros pois não estamos nomeando essa politica
+
+    options.AddPolicy("OrigensComAcessoPermitido", policy =>
+    {
+        policy.WithOrigins("https://localhost:7049").WithMethods("GET", "POST").AllowCredentials();
+    });
+
 });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -178,7 +186,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 // deve estar entre esses dois middlewares e depois do middleware UseStaticFiles
-app.UseCors(OrigensComAcessoPermitido); // habilitando o suporte CORS 
+app.UseCors(); // habilitando o suporte CORS 
 
 app.UseAuthorization();
 
