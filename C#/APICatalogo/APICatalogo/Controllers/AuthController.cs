@@ -13,6 +13,7 @@ namespace APICatalogo.Controllers;
 // Para utilizar o serviço TokenService devemos registrar o mesmo no Container DI na classe Program.cs
 [Route("api/[controller]")]
 [ApiController]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class AuthController : ControllerBase
 {
 

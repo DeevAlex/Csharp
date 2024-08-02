@@ -21,6 +21,7 @@ namespace APICatalogo.Controllers
 
     [Route("[controller]")] // Rota se tiver, [Route("[controller]")] ele usara apenas o nome do controlador Ex.: http://localhost:<porta>/<nome_do_controller>/ . se estiver assim: [Route("Produtos/{Action}")] a rota será http://localhost:<porta>/<Pode_ser_qualquer_nome>/<Nome_do_Metodo>
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)] // esse atributo controla a documentação gerada para a api, caso true não inclui a documentação gerada automaticamente na interface do swagger
     public class ProdutosController : ControllerBase
     {
 

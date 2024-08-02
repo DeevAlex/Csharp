@@ -125,3 +125,7 @@ C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll

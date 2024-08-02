@@ -8,6 +8,7 @@ using APICatalogo.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using X.PagedList;
@@ -15,8 +16,10 @@ using X.PagedList;
 namespace APICatalogo.Controllers
 {
     [EnableCors("OrigensComAcessoPermitido")] // habilitando o CORS nesse controlador, podemos habilitar um ou mais metodos action e desabilitar também, esse data annotaion com parametro define uma politca nomeada caso não tenha é default
+    [EnableRateLimiting("fixedwindow")] // aplicando a limitação de taxa a todos os endpoints do controller
     [Route("[controller]")]
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class CategoriasController : ControllerBase
     {
 
@@ -124,6 +127,7 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet] // No metodo action podemos retornar todos os metodos da classe ActionResult ou o tipo que ele quer retornar que no caso é o IEnumerable<Produto>
+        [DisableRateLimiting] // desabilitando o limite de taxa desse endpoint
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get() // Usamos o IEnumerable porque aqui temos uma interface só de leitura e ele permite adiar a execução (ou seja ele trabalha por demanda) e não precisamos ter toda a coleção em memoria e ele é mais otimizado
         {
 

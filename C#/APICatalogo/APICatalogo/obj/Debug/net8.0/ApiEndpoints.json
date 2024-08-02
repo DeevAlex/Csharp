@@ -349,26 +349,6 @@
   },
   {
     "ContainingType": "APICatalogo.Controllers.CategoriasController",
-    "Method": "GetA",
-    "RelativePath": "Categorias/Teste",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "APICatalogo.Models.Categoria",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "APICatalogo.Controllers.CategoriasController",
     "Method": "GetSaudacaoFromServices",
     "RelativePath": "Categorias/UsandoFromServices/{nome}",
     "HttpMethod": "GET",
