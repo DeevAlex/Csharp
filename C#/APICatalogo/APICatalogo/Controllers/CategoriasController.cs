@@ -15,11 +15,12 @@ using X.PagedList;
 
 namespace APICatalogo.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
+    [Produces("application/json")] // define o tipo de retorno padrão para a API
     [EnableCors("OrigensComAcessoPermitido")] // habilitando o CORS nesse controlador, podemos habilitar um ou mais metodos action e desabilitar também, esse data annotaion com parametro define uma politca nomeada caso não tenha é default
     [EnableRateLimiting("fixedwindow")] // aplicando a limitação de taxa a todos os endpoints do controller
-    [Route("[controller]")]
-    [ApiController]
-    [ApiExplorerSettings(IgnoreApi = true)]
+    // [ApiExplorerSettings(IgnoreApi = true)]
     public class CategoriasController : ControllerBase
     {
 
@@ -126,6 +127,13 @@ namespace APICatalogo.Controllers
             return Ok(categoriasDTO);
         }
 
+        // informação que irá aparecer na documentação 
+
+        /// <summary>
+        /// Obtém uma lista de objetos categoria
+        /// </summary>
+        /// <returns>Uma lista de objetos categoria</returns>
+
         [HttpGet] // No metodo action podemos retornar todos os metodos da classe ActionResult ou o tipo que ele quer retornar que no caso é o IEnumerable<Produto>
         [DisableRateLimiting] // desabilitando o limite de taxa desse endpoint
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get() // Usamos o IEnumerable porque aqui temos uma interface só de leitura e ele permite adiar a execução (ou seja ele trabalha por demanda) e não precisamos ter toda a coleção em memoria e ele é mais otimizado
@@ -167,8 +175,17 @@ namespace APICatalogo.Controllers
 
         }
 
+
+        /// <summary>
+        /// Obtém uma categoria pelo seu ID
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>Objetos Categoria</returns>
+
         [DisableCors] // desabilitando a politica definida lá em cima nesse metodo action
         [HttpGet("{id:int}", Name = "ObterCategoria")] // recepção do id que esta vindo no request e o :<restrição é o tipo que tem que ser>, o Name = '<NOME_DA_ROTA>' é uma rota nomeada
+        [ProducesResponseType(StatusCodes.Status200OK)] // define os codigos de status de retorno possiveis
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<CategoriaDTO>> Get(int id)
         {
 
@@ -204,7 +221,27 @@ namespace APICatalogo.Controllers
 
         }
 
+
+        /// <summary>
+        /// Inclui uma nova categoria
+        /// </summary>
+        /// <remarks>
+        /// Exemplo de request:
+        /// 
+        ///     POST api/categorias 
+        ///     {
+        ///         "categoriaId": 1,
+        ///         "nome": "categoria1",
+        ///         "imagemUrl": "https://google.com/"
+        ///     }
+        /// </remarks>
+        /// <param name="categoriaDTO"></param>
+        /// <returns>O objeto categoria incluida</returns>
+        /// <remarks>Retorna um objeto categoria incluido</remarks>
+
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)] // define os codigos de status de retorno possiveis
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<CategoriaDTO>> Post(CategoriaDTO categoriaDTO)
         {
 
@@ -226,6 +263,8 @@ namespace APICatalogo.Controllers
 
         }
 
+        // para desabilitar o alerta de aviso da aplicação inteira devemos colocar no propertygroup do projeto a seguinte tag <NoWarn>$(NoWarn);1591</NoWarn>
+#pragma warning disable CS1591 // esse comentario desabilita o alerta de aviso CS1591 de que esse metodo deveria ter o comentario XML
         [Authorize]
         [HttpPut("{id:int}")]
         public async Task<ActionResult<CategoriaDTO>> Put(int id, CategoriaDTO categoriaDTO)
@@ -247,6 +286,7 @@ namespace APICatalogo.Controllers
             return Ok(novaCategoriaAtualizadaDTO);
 
         }
+        #pragma warning restore CS1591 // desabilita até aqui o aviso
 
 
         [HttpDelete("{id:int}")]

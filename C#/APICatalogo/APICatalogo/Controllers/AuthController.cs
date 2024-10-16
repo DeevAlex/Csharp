@@ -13,7 +13,7 @@ namespace APICatalogo.Controllers;
 // Para utilizar o serviço TokenService devemos registrar o mesmo no Container DI na classe Program.cs
 [Route("api/[controller]")]
 [ApiController]
-[ApiExplorerSettings(IgnoreApi = true)]
+// [ApiExplorerSettings(IgnoreApi = true)]
 public class AuthController : ControllerBase
 {
 
@@ -31,6 +31,14 @@ public class AuthController : ControllerBase
         _config = config;
         _logger = logger;
     }
+
+
+    /// <summary>
+    /// Verifica as credenciais de um usuário
+    /// </summary>
+    /// <param name="model">um objeto do tipo UsuarioDTO</param>
+    /// <returns>Status 200 e o token para o cliente</returns>
+    /// <remarks>Retorna o Status 200 e o token</remarks>
 
     [HttpPost]
     [Route("login")]
@@ -85,6 +93,14 @@ public class AuthController : ControllerBase
         // Codigo 403 - Forbidden, cliente foi autenticado, porém não tem a permissão para acessar o recurso, metodo para retornar o status é o Forbid()
 
     }
+
+
+    /// <summary>
+    /// Registra um novo usuario
+    /// </summary>
+    /// <param name="registerModel">Um objeto UsuarioDTO</param>
+    /// <returns>Status 200</returns>
+    /// <remarks>retorna o status 200</remarks>
 
     [HttpPost]
     [Route("register")]

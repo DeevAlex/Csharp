@@ -7,6 +7,7 @@ namespace APICatalogo.Controllers;
 [Route("api/v{version:apiVersion}/teste")] // padrão URI
 [ApiController]
 [ApiVersion("2.0")]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class TesteV2Controller : ControllerBase
 {
 

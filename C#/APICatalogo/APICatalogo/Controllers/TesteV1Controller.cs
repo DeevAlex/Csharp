@@ -7,6 +7,7 @@ namespace APICatalogo.Controllers;
 [Route("api/v{version:apiVersion}/teste")] // padrão QueryString vai ser adicionado na url a query string ?api-version=<numero da versão>
 [ApiController]
 [ApiVersion("1.0", Deprecated = true)] // esse atributo  define a versão da api que esse controle atua e para definir uma sinalização que uma api como obsoleta ou depreciada -> [ApiVersion("1.0", Deprecated = true)]
+[ApiExplorerSettings(IgnoreApi = true)]
 public class TesteV1Controller : ControllerBase
 {
 

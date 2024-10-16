@@ -14,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -66,7 +67,35 @@ builder.Services.AddEndpointsApiExplorer(); // Necessario para as minimal apis
 // Adicionando o SwaggerGen (ele analisa as informações dos controladores, modelos e outros elementos de sua aplicação para gerar a documentação do Swagger) ao Container DI
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo{ Title = "apicatalogo", Version = "v1" }); // titulo e a versão da API, o primeiro "v1" é a versão da documentação
+    // c.SwaggerDoc("v1", new OpenApiInfo{ Title = "apicatalogo", Version = "v1" }); // titulo e a versão da API, o primeiro "v1" é a versão da documentação
+
+    // Incluindo uma documentação
+
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        // codigo que descreve a documentação do documento que sera gerado pelo swagger
+        Version = "v1",
+        Title = "APICatalogo",
+        Description = "Catálogo de Produtos e Categorias",
+        TermsOfService = new Uri("https://google.com"),
+        Contact = new OpenApiContact
+        {
+            Name = "Alex",
+            Email = "alex@gmail.com",
+            Url = new Uri("https://google.com/terms"),
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Usar sobre LICX",
+            Url = new Uri("https://google.com")
+        }
+
+    });
+
+    var xmlFileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"; // GetExecutingAssembly, Retorna o Assembler (o arquivo que contém o codigo atualmente em execução), o GetName, obtém as informações de nome do assembler e Name obtém o nome como string, ele vai ser procurado no diretorio de execução da aplicação 
+
+    // Adiciona os comentarios XML ao Swagger usando IncludeXmlComments
+    c.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFileName)); // BaseDirectory obtém o diretorio base do aplicativo (geralmente é o diretorio onde o aplicativo está sendo executado). O Combine vai combinar o diretorio base com o nome do arquivo xml
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme() // adicionando uma definição de segurança, chamada "Bearer", para indicar que a nossa aplicação vai usar o Token JWT Bearer
     {
@@ -232,7 +261,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger(); // habilitando os middleware para atender o documento json gerado
-    app.UseSwaggerUI(); // habilita o middleware de arquivos estaticos
+    // app.UseSwaggerUI(); // habilita o middleware de arquivos estaticos
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "APICatalogo"); // EndPoint padrão que irá fornecer informação estruturada sobre a nossa API
+    });
     app.UseDeveloperExceptionPage(); // middleware das paginas de exceção do desenvolvedor 
 }
 

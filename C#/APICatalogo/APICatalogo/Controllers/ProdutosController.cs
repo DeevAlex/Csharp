@@ -21,7 +21,7 @@ namespace APICatalogo.Controllers
 
     [Route("[controller]")] // Rota se tiver, [Route("[controller]")] ele usara apenas o nome do controlador Ex.: http://localhost:<porta>/<nome_do_controller>/ . se estiver assim: [Route("Produtos/{Action}")] a rota será http://localhost:<porta>/<Pode_ser_qualquer_nome>/<Nome_do_Metodo>
     [ApiController]
-    [ApiExplorerSettings(IgnoreApi = true)] // esse atributo controla a documentação gerada para a api, caso true não inclui a documentação gerada automaticamente na interface do swagger
+    // [ApiExplorerSettings(IgnoreApi = true)] // esse atributo controla a documentação gerada para a api, caso true não inclui a documentação gerada automaticamente na interface do swagger
     public class ProdutosController : ControllerBase
     {
 
@@ -61,6 +61,12 @@ namespace APICatalogo.Controllers
             return Ok(produtosDTO);
         }
 
+
+        /// <summary>
+        /// Exibe uma relação dos produtos
+        /// </summary>
+        /// <returns>Retorna uma lista de objetos Produto</returns>
+
         [HttpGet] // No metodo action podemos retornar todos os metodos da classe ActionResult ou o tipo que ele quer retornar que no caso é o IEnumerable<Produto>
         [Authorize(Policy = "UserOnly")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() // Usamos o IEnumerable porque aqui temos uma interface só de leitura e ele permite adiar a execução (ou seja ele trabalha por demanda) e não precisamos ter toda a coleção em memoria e ele é mais otimizado
@@ -95,6 +101,13 @@ namespace APICatalogo.Controllers
 
             return Ok(produtoDTO);
         }
+
+
+        /// <summary>
+        /// Obtém o produto pelo seu identificado produtoId
+        /// </summary>
+        /// <param name="id">Código do produto</param>
+        /// <returns>Um objeto Produto</returns>
 
         [HttpGet("{id:int:min(1)}", Name = "ObterProduto")] // recepção do id que esta vindo no request e o :<restrição é o tipo que tem que ser>, o Name = '<NOME_DA_ROTA>' é uma rota nomeada, podemos atribuir um valor padrão no parametro da url assim [HttpGet("{id}/{nome=<valor padrão>}", Name = "ObterProduto")], o min(<numero>) define uma restrição de rota e apenas valores igual ou superior ao numero informado no min() caso seja menor que o valor no metodo min() é retornado um 404 devolvido pelo mecanismo de roteamento do ASP .NET Core, fazendo com que o metodo não receba o metodo Action e dessa forma uma consulta desnecessaria ao BD foi evitada e o :alpha é para aceitar apenas valores de parametros que sejam alpha numericos de A-Z ou a-z podemos colocar uma restrição de comprimento :length(<tamanho>) o metodo action só vai ser acionado caso tenha o tamanho definido nem mais nem menos apenas IGUAIS (não devemos usar esse recurso para validar a entrada do usuario na URL só usamos para distinguir entre duas rotas parecidas), Ex.: public ActionResult<ProdutoDTO> Get([FromQuery] int id) {}
         public async Task<ActionResult<ProdutoDTO>> Get(int id) // public async Task<ActionResult<Produto>> Get(int id, [BindRequired] string nome), [BindRequired] faz com que esse metodo Action exija esse parâmetro nome, [FromBody] para dados no corpo da requisição, [FromRoute] para dados na rota da URL. [FromForm] para dados em um formulário enviado. [FromHeader] para dados nos cabeçalhos da requisição. e o [FromQuery] indica que o parâmetro id deve ser obtido da query string.

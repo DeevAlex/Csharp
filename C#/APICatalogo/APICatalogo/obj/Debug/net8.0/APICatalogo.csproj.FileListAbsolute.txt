@@ -129,3 +129,5 @@ C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Http.dll
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\bin\Debug\net8.0\APICatalogo.xml
+C:\Users\Alex\Documents\GitHub\Csharp\C#\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.xml
