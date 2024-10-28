@@ -1,0 +1,491 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|solutionrelative:catalogo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\catalogo.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\catalogo.infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\catalogo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\catalogo.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFABCE0A-B511-4D0C-ACA0-3744C95A637C}|Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.crosscutting\\catalogo.crosscutting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFABCE0A-B511-4D0C-ACA0-3744C95A637C}|Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj|solutionrelative:catalogo.crosscutting\\catalogo.crosscutting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\catalogo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\catalogo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.api\\catalogo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|solutionrelative:catalogo.api\\catalogo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFABCE0A-B511-4D0C-ACA0-3744C95A637C}|Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.crosscutting\\ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFABCE0A-B511-4D0C-ACA0-3744C95A637C}|Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj|solutionrelative:catalogo.crosscutting\\ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\validations\\domainexceptionvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\validations\\domainexceptionvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\entitiesconfigurations\\categoriaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\entitiesconfigurations\\categoriaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|solutionrelative:catalogo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F773A89-69E4-4348-877B-F9023DEA9AE6}|Catalogo.API\\Catalogo.API.csproj|solutionrelative:catalogo.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\mappings\\domaintodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\mappings\\domaintodtomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.infraestructure\\entitiesconfigurations\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3494A0D-5797-4C40-977C-741DB53B5DDC}|Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj|solutionrelative:catalogo.infraestructure\\entitiesconfigurations\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFAC5158-66D6-4B3F-844E-22F5E445F380}|Catalogo.Application\\Catalogo.Application.csproj|solutionrelative:catalogo.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|c:\\users\\alex\\documents\\github\\catalogo\\catalogo.domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0357A1F8-3E43-4F20-B9AC-8F5B2E82254A}|Catalogo.Domain\\Catalogo.Domain.csproj|solutionrelative:catalogo.domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:374802479:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Catalogo.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\appsettings.json",
+              "RelativeToolTip": "Catalogo.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T23:04:38.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Catalogo.Infraestructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:45:30.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Catalogo.Infraestructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+              "RelativeToolTip": "Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T01:24:27.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Catalogo.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Catalogo.API.csproj",
+              "RelativeDocumentMoniker": "Catalogo.API\\Catalogo.API.csproj",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Catalogo.API.csproj",
+              "RelativeToolTip": "Catalogo.API\\Catalogo.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T23:04:31.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Catalogo.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Catalogo.Application.csproj",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Catalogo.Application.csproj",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Catalogo.Application.csproj",
+              "RelativeToolTip": "Catalogo.Application\\Catalogo.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-24T01:24:01.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Catalogo.CrossCutting.csproj",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
+              "RelativeDocumentMoniker": "Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
+              "RelativeToolTip": "Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T00:02:17.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catalogo.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Catalogo.Domain.csproj",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
+              "RelativeToolTip": "Catalogo.Domain\\Catalogo.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T00:05:34.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjectionAPI.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "RelativeDocumentMoniker": "Catalogo.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "RelativeToolTip": "Catalogo.CrossCutting\\IoC\\DependencyInjectionAPI.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T02:26:43.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:14:59.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DomainExceptionValidation.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Validations\\DomainExceptionValidation.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Validations\\DomainExceptionValidation.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Validations\\DomainExceptionValidation.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Validations\\DomainExceptionValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:26:10.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Entities\\Categoria.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:13:35.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Catalogo.Infraestructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T02:04:44.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "Catalogo.Infraestructure\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T02:04:30.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "RelativeToolTip": "Catalogo.Infraestructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:50:13.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "Catalogo.Application\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:31:19.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DomainToDTOMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "RelativeToolTip": "Catalogo.Application\\Mappings\\DomainToDTOMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:20:18.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "Catalogo.Application\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:31:07.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Catalogo.API\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Catalogo.API\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T23:00:56.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Program.cs",
+              "RelativeDocumentMoniker": "Catalogo.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.API\\Program.cs",
+              "RelativeToolTip": "Catalogo.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T22:54:42.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Interfaces\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Interfaces\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Interfaces\\ICategoriaService.cs",
+              "RelativeToolTip": "Catalogo.Application\\Interfaces\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:25:20.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Interfaces\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\Interfaces\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Interfaces\\IProdutoService.cs",
+              "RelativeToolTip": "Catalogo.Application\\Interfaces\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:25:36.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Interfaces\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:14:43.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProdutoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "RelativeDocumentMoniker": "Catalogo.Infraestructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "RelativeToolTip": "Catalogo.Infraestructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:56:01.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Entities\\Produto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wD8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:13:56.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\DTOs\\ProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeToolTip": "Catalogo.Application\\DTOs\\ProdutoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:15:23.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\DTOs\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "Catalogo.Application\\DTOs\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\DTOs\\CategoriaDTO.cs",
+              "RelativeToolTip": "Catalogo.Application\\DTOs\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:13:43.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "Catalogo.Domain\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Entities\\Entity.cs",
+              "RelativeToolTip": "Catalogo.Domain\\Entities\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T00:13:47.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
