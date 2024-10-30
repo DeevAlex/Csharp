@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj": {}
+    "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj": {
+    "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
         "projectName": "Catalogo.Domain",
-        "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
+        "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj": {
+    "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
         "projectName": "Catalogo.Infraestructure",
-        "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Infraestructure\\Catalogo.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj"
+              "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Domain\\Catalogo.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nCXc5bHi3aI=",
+  "dgSpecHash": "V8JAi7WPx1g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.CrossCutting\\Catalogo.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

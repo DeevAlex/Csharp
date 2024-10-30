@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+vgVSVndx08=",
+  "dgSpecHash": "J0f9J+Y88bg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Catalogo\\Catalogo.Application\\Catalogo.Application.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Csharp\\C#\\Catalogo\\Catalogo.Application\\Catalogo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
